@@ -1,0 +1,1067 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head><meta name="generator" content="Hexo 3.9.0">
+    <meta charset="utf-8">
+<title>如何优雅地使用 VLC 播放辣鸡 APP 上的英语听力 - Hans362 &#39;s Blog</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+
+    <meta name="description" content="很久都没有写过这种文章了辣么就来水一篇吧">
+<meta property="og:type" content="article">
+<meta property="og:title" content="如何优雅地使用 VLC 播放辣鸡 APP 上的英语听力">
+<meta property="og:url" content="https://hans362.github.io/如何优雅地使用 VLC 播放辣鸡 APP 上的英语听力/index.html">
+<meta property="og:site_name" content="Hans362 &#39;s Blog">
+<meta property="og:description" content="很久都没有写过这种文章了辣么就来水一篇吧">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:image" content="https://blog-img-1251828412.file.myqcloud.com/2019/01/30/Photo%20Jan%2030,%2017%2034%2047.jpeg">
+<meta property="og:image" content="https://blog-img-1251828412.file.myqcloud.com/2019/01/30/Photo%20Jan%2030,%2017%2034%2039.jpeg">
+<meta property="og:image" content="https://blog-img-1251828412.file.myqcloud.com/2019/01/30/Photo%20Jan%2030,%2017%2042%2012.png">
+<meta property="og:image" content="https://blog-img-1251828412.file.myqcloud.com/2019/01/30/Photo%20Jan%2030,%2017%2034%2057.jpeg">
+<meta property="og:image" content="https://blog-img-1251828412.file.myqcloud.com/2019/01/30/Photo%20Jan%2030,%2017%2035%2009.jpeg">
+<meta property="og:image" content="https://blog-img-1251828412.file.myqcloud.com/2019/01/30/Photo%20Jan%2030,%2017%2035%2015.jpeg">
+<meta property="og:image" content="https://blog-img-1251828412.file.myqcloud.com/2019/01/30/Photo%20Jan%2030,%2017%2035%2025.jpeg">
+<meta property="og:image" content="https://blog-img-1251828412.file.myqcloud.com/2019/01/30/Photo%20Jan%2030,%2017%2035%2033.jpeg">
+<meta property="og:image" content="https://blog-img-1251828412.file.myqcloud.com/2019/01/30/Photo%20Jan%2030,%2017%2035%2039.jpeg">
+<meta property="og:image" content="https://blog-img-1251828412.file.myqcloud.com/2019/01/30/Photo%20Jan%2030,%2017%2035%2044.jpeg">
+<meta property="og:updated_time" content="2020-03-28T03:29:51.532Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="如何优雅地使用 VLC 播放辣鸡 APP 上的英语听力">
+<meta name="twitter:description" content="很久都没有写过这种文章了辣么就来水一篇吧">
+<meta name="twitter:image" content="https://blog-img-1251828412.file.myqcloud.com/2019/01/30/Photo%20Jan%2030,%2017%2034%2047.jpeg">
+<meta name="twitter:creator" content="@Milk_362">
+
+
+
+<link rel="alternative" href="/atom.xml" title="如何优雅地使用 VLC 播放辣鸡 APP 上的英语听力" type="application/atom+xml">
+
+
+
+<link rel="icon" href="https://blog-img-1251828412.file.myqcloud.com/favicon.ico">
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.7.2/css/bulma.css">
+<link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/5.10.0-12/css/all.css">
+<link rel="stylesheet" href="https://fonts.loli.net/css?family=Ubuntu:400,600|Source+Code+Pro">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@9.12.0/styles/atom-one-dark.css">
+
+
+    
+    
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@1.6.8/dist/css/lightgallery.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/css/justifiedGallery.min.css">
+    
+
+    
+    
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/outdatedbrowser@1.1.5/outdatedbrowser/outdatedbrowser.min.css">
+
+
+    
+    
+    
+    <style>body>.footer,body>.navbar,body>.section{opacity:0}</style>
+    
+
+    
+    
+    
+    
+
+<link rel="stylesheet" href="/css/back-to-top.css">
+
+
+    
+    
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-116536285-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-116536285-1');
+</script>
+
+
+    
+    
+    
+    
+
+    
+    
+<link rel="stylesheet" href="/css/progressbar.css">
+<script src="https://cdn.jsdelivr.net/npm/pace-js@1.0.2/pace.min.js"></script>
+
+    
+
+
+<link rel="stylesheet" href="/css/style.css">
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/disqusjs@1.2/dist/disqusjs.css">
+<script src="https://cdn.jsdelivr.net/npm/disqusjs@1.1/dist/disqus.js"></script>
+
+</head>
+
+<body class="is-2-column" data-instant>
+    <nav class="navbar navbar-main">
+    <div class="container">
+        <div class="navbar-brand is-flex-center">
+            <a class="navbar-item navbar-logo" href="/">
+            
+                <img src="https://blog-img-1251828412.file.myqcloud.com/banner.jpeg" alt="如何优雅地使用 VLC 播放辣鸡 APP 上的英语听力" height="28">
+            
+            </a>
+        </div>
+        <div class="navbar-menu">
+            
+            <div class="navbar-start" data-instant>
+                
+                <a class="navbar-item" href="/" data-instant>主页</a>
+                
+                <a class="navbar-item" href="/archives/" data-instant>归档</a>
+                
+                <a class="navbar-item" href="/coffee/" data-instant>咖啡</a>
+                
+                <a class="navbar-item" href="/links/" data-instant>友链</a>
+                
+                <a class="navbar-item" href="https://oj.hans362.cn/" data-instant>OJ</a>
+                
+                <a class="navbar-item" href="/about/" data-instant>关于</a>
+                
+            </div>
+            
+            <div class="navbar-end">
+                
+                
+                <a class="navbar-item is-hidden-tablet catalogue" title="目录" href="javascript:;">
+                    <i class="fas fa-list-ul"></i>
+                </a>
+                
+                
+                <a class="navbar-item search" title="搜索" href="javascript:;">
+                    <i class="fas fa-search"></i>
+                </a>
+                
+            </div>
+        </div>
+    </div>
+</nav>
+    
+    
+    <section class="section">
+        <div class="container">
+            <div class="columns">
+                <div class="column is-8-tablet is-8-desktop is-8-widescreen has-order-2 column-main"><div class="card">
+    
+    <div class="card-image">
+        <span class="image is-7by1">
+            <img class="thumbnail" src="https://blog-img-1251828412.file.myqcloud.com/2019/01/30/Photo%20Jan%2030,%2016%2053%2020.jpeg" alt="如何优雅地使用 VLC 播放辣鸡 APP 上的英语听力">
+        </span>
+    </div>
+    
+    <div class="card-content article ">
+        
+        <div class="level article-meta is-size-7 is-uppercase is-mobile is-overflow-x-auto">
+            <div class="level-left">
+                <time class="level-item has-text-grey" datetime="2019-01-30T18:09:00.000Z">2019-01-30</time>
+                
+                <div class="level-item">
+                <a class="has-link-grey -link" href="/categories/技术向/">技术向</a>
+                </div>
+                
+                
+                <span class="level-item has-text-grey">
+                    
+                    
+                    8 分钟 读完 (大约 1254 个字)
+                </span>
+                
+            </div>
+        </div>
+        
+        <h1 class="title is-size-3 is-size-4-mobile has-text-weight-normal">
+            
+                如何优雅地使用 VLC 播放辣鸡 APP 上的英语听力
+            
+        </h1>
+        <div class="content">
+            <p><del>很久都没有写过这种文章了辣么就来水一篇吧</del></p>
+<a id="more"></a>
+<h2 id="所以这个需求是怎么产生的？"><a href="#所以这个需求是怎么产生的？" class="headerlink" title="所以这个需求是怎么产生的？"></a>所以这个需求是怎么产生的？</h2><p>自从领取了作业大礼包之后我开始疯狂地刷起了作业….首先想干掉的当然是英语啦～毕竟上海这里的初中英语实在是太….简单了，看一眼出答案的那种</p>
+<p>然而今年的这厚厚的一沓英语模拟卷合订本和往年不同，竟然没有给听力光盘！（强烈谴责该出版社卷子卖得这么贵还省光盘钱）直到我读到第一页的一行小字和一个二维码：</p>
+<p><img src="https://blog-img-1251828412.file.myqcloud.com/2019/01/30/Photo%20Jan%2030,%2017%2034%2047.jpeg" alt></p>
+<p>woc你当我看不出来你这个出版社和这个二维码指向的 APP 之间有着某种 PY 交易么？！</p>
+<p>好吧既然这样那么就只好勉为其难地下载这个 APP 啦</p>
+<p><img src="https://blog-img-1251828412.file.myqcloud.com/2019/01/30/Photo%20Jan%2030,%2017%2034%2039.jpeg" alt></p>
+<p>一点开果然是一股浓浓的国产 APP 风格，一上来就一个弹窗“快来登录账号吧！没有账号？注册一个”，然后又是果然不出所料要求填写<strong>手机号</strong>、<strong>真实姓名</strong>、<strong>就读学校</strong>等一系列个人信息</p>
+<p><img src="https://blog-img-1251828412.file.myqcloud.com/2019/01/30/Photo%20Jan%2030,%2017%2042%2012.png" alt></p>
+<p>我目瞪口呆…一个学习类 APP 竟能无耻到这种程度，摆明了是要<strong>收集用户信息</strong>啊</p>
+<p>所以我还是老老实实地把信息交了出来（你当我填的是真的吗？图样图森破</p>
+<p>总算是搞定了这一切，当我点开听力页面时，我又惊惹！“<strong>该录音不支持下载</strong>”</p>
+<p>所以说我听个听力还要联网是么（微笑脸）好吧，那咱就开始吧</p>
+<p>我仍清晰地记得当我听到02:34时声音骤停的那一刹那，抬头一看：<strong>进度条卡住了</strong>？！</p>
+<p>等待了一分钟左右依然不动就只好退出重进啦～可当我点开听力的那个页面时，我又遭受一重打击：<strong>进度条无法拖动</strong>！</p>
+<p>[我崩溃了.jpg]我只是想听个听力啊ಥ_ಥ 你这个辣鸡 APP 究竟想干嘛啊…</p>
+<h2 id="然后…就是解决方案啦"><a href="#然后…就是解决方案啦" class="headerlink" title="然后…就是解决方案啦"></a>然后…就是解决方案啦</h2><p>最简单粗暴的方法：老子不做了…当然这样的结果各位也是知道的23333</p>
+<p>然后突然有个想法，既然是 APP 在线播放，其服务器上一定存在一个音频的对应关系，而看这个辣鸡 APP 做工也不咋滴，应该没有加密措施，咱抓个包看看</p>
+<p>于是乎用到了 Thor 这个 iOS 端抓包工具，个人感觉挺好用的，虽然没有 BurpSuite 或者是 Fiddler 那么专业就是了</p>
+<p><img src="https://blog-img-1251828412.file.myqcloud.com/2019/01/30/Photo%20Jan%2030,%2017%2034%2057.jpeg" alt></p>
+<p>然后就是打开、创建 VPN 、安装证书用于 Https 抓包等一系列基本操作</p>
+<p><img src="https://blog-img-1251828412.file.myqcloud.com/2019/01/30/Photo%20Jan%2030,%2017%2035%2009.jpeg" alt></p>
+<p>这时候咱把窗口切回这个辣鸡 APP ，开始播放，再切回 Thor</p>
+<p><img src="https://blog-img-1251828412.file.myqcloud.com/2019/01/30/Photo%20Jan%2030,%2017%2035%2015.jpeg" alt></p>
+<p>好极了～抓包结果中迅速出现了一个音频文件，且一直排在最顶端，应该就是它啦！</p>
+<p><img src="https://blog-img-1251828412.file.myqcloud.com/2019/01/30/Photo%20Jan%2030,%2017%2035%2025.jpeg" alt></p>
+<p>等等，这文件名看上去，怎么那么奇怪啊….不管了，先把链接复制下来丢 VLC 里看看</p>
+<p><img src="https://blog-img-1251828412.file.myqcloud.com/2019/01/30/Photo%20Jan%2030,%2017%2035%2033.jpeg" alt></p>
+<p><img src="https://blog-img-1251828412.file.myqcloud.com/2019/01/30/Photo%20Jan%2030,%2017%2035%2039.jpeg" alt></p>
+<p>果然成功播放～还可以下载离线播放、n倍速播放（因为个人觉得听力读得太慢了喜欢1.5倍速播放）</p>
+<p><img src="https://blog-img-1251828412.file.myqcloud.com/2019/01/30/Photo%20Jan%2030,%2017%2035%2044.jpeg" alt></p>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>我用同样的方法抓取了另外两三个区的听力文件后，我发现文件名每一个都看上去很奇怪，似乎没什么规律可循，也就是说我只能一个区一个区地把剩下的全部抓完</p>
+<p>听力文件名的构成是xxxxx-xxxxxxxxxxxxxxxxxxxxxx（都是大小写字母与数字混排的，貌似并没有什么规律）看上去也不像是用了什么加密方法得到的，可能真的只是随机生成的一段字符串吧</p>
+<p>既然这样那我就只能乖乖地手工把链接都抓取下来～不过总比用这个 APP 要舒适很多</p>
+<p>本文也是给各位提供一个思路～遇到这种流氓学习类应用（现在市面上不要太多哦）咱可以试试看抓包的方法获取背后的真实路径，顺便推荐了一个 iOS 端的抓包软件：Thor （真的不是广告啦～只是觉得挺好用的2333</p>
+<p>突然发现需求产生的原因那一块写了好长….不管了（逃</p>
+
+        </div>
+        
+        
+        
+    </div>
+</div>
+
+
+
+<div class="card">
+    <div class="card-content">
+        <h3 class="menu-label has-text-centered">喜欢这篇文章吗？请我喝杯咖啡吧～</h3>
+        <div class="buttons is-centered">
+            
+                
+<a class="button is-info donate">
+    <span class="icon is-small">
+        <i class="fab fa-alipay"></i>
+    </span>
+    <span>支付宝</span>
+    <div class="qrcode"><img src="https://blog-img-1251828412.file.myqcloud.com/2019/08/06/2532655860.jpg" alt="支付宝"></div>
+</a>
+
+                
+                
+<a class="button is-success donate">
+    <span class="icon is-small">
+        <i class="fab fa-weixin"></i>
+    </span>
+    <span>微信</span>
+    <div class="qrcode"><img src="https://blog-img-1251828412.file.myqcloud.com/2019/08/06/2839222710.jpg" alt="微信"></div>
+</a>
+
+                
+        </div>
+    </div>
+</div>
+
+
+
+<div class="card card-transparent">
+    <div class="level post-navigation is-flex-wrap is-mobile">
+        
+        <div class="level-start">
+            <a class="level level-item has-link-grey  article-nav-prev" href="/【项目发布】追番列表展示API/">
+                <i class="level-item fas fa-chevron-left"></i>
+                <span class="level-item">【项目发布】追番列表展示API</span>
+            </a>
+        </div>
+        
+        
+        <div class="level-end">
+            <a class="level level-item has-link-grey  article-nav-next" href="/周记14 - 近况：我的初三生活/">
+                <span class="level-item">周记#14 - 近况：我的初三生活</span>
+                <i class="level-item fas fa-chevron-right"></i>
+            </a>
+        </div>
+        
+    </div>
+</div>
+
+
+
+<div class="card">
+    <div class="card-content">
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-8746554831230893" data-ad-slot="6947252542"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+      <br>
+      <br>
+      
+        <h3 class="title is-5 has-text-weight-normal">评论</h3>
+        
+<p>如果您看不见评论框，八成是因为您还未接入真正意义上自由开放的互联网哟～自己看着办吧～</p>
+<script>
+    var disqus_config = function () {
+        this.page.url = 'https://hans362.github.io/如何优雅地使用 VLC 播放辣鸡 APP 上的英语听力/';
+        this.page.identifier = '如何优雅地使用 VLC 播放辣鸡 APP 上的英语听力/';
+    };
+    (function() {
+        var d = document, s = d.createElement('script');  
+        s.src = '//' + 'hans362-s-blog' + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<script>
+var dsqjs = new DisqusJS({
+    shortname: 'hans362-s-blog',
+    siteName: 'Hans362 's Blog',
+    apikey: 'P4CN9zI6m46TEJY76smRlYYNVzNz2BiuE1I2mj7oyAe4kzQa1R2l1MNdgoG8Nneq',
+    admin: 'hans362',
+});
+</script>
+
+<div id="disqus_thread">
+    
+    <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+
+
+    </div>
+</div>
+</div>
+                
+
+
+
+
+<div class="column is-4-tablet is-4-desktop is-4-widescreen  has-order-1 column-left ">
+    
+        
+<div class="card widget">
+    <div class="card-content">
+        <nav class="level">
+            <div class="level-item has-text-centered">
+                <div>
+                    <img class="image is-128x128 has-mb-6" src="https://gravatar.loli.net/avatar/b525f65bbdf95c0152833dadc38fbbb9" alt="Hans362">
+                    
+                    <p class="is-size-4 is-block">
+                        Hans362
+                    </p>
+                    
+                    
+                    <p class="is-size-6 is-block">
+                        不以物喜，不以己悲
+                    </p>
+                    
+                    
+                </div>
+            </div>
+        </nav>
+        <nav class="level is-mobile">
+            <div class="level-item has-text-centered is-marginless">
+                <div>
+                    <p class="heading">
+                        文章
+                    </p>
+                    <p class="title has-text-weight-normal">
+                        64
+                    </p>
+                </div>
+            </div>
+            <div class="level-item has-text-centered is-marginless">
+                <div>
+                    <p class="heading">
+                        分类
+                    </p>
+                    <p class="title has-text-weight-normal">
+                        7
+                    </p>
+                </div>
+            </div>
+            <div class="level-item has-text-centered is-marginless">
+                <div>
+                    <p class="heading">
+                        标签
+                    </p>
+                    <p class="title has-text-weight-normal">
+                        0
+                    </p>
+                </div>
+            </div>
+        </nav>
+        <div class="level">
+            <a class="level-item button is-link is-rounded" href="/atom.xml">
+                RSS 订阅</a>
+        </div>
+        
+        
+        <div class="level is-mobile">
+            
+            <a class="level-item button is-white is-marginless" target="_blank" title="Github" href="https://github.com/hans362">
+                
+                <i class="fab fa-github"></i>
+                
+            </a>
+            
+            <a class="level-item button is-white is-marginless" target="_blank" title="Telegram" href="https://t.me/hans362">
+                
+                <i class="fab fa-telegram"></i>
+                
+            </a>
+            
+            <a class="level-item button is-white is-marginless" target="_blank" title="QQ" href="javascript:alert(&#39;不存在的23333不过如果你通过其他方式联系我或许能PY到～&#39;)">
+                
+                <i class="fab fa-qq"></i>
+                
+            </a>
+            
+            <a class="level-item button is-white is-marginless" target="_blank" title="Twitter" href="https://twitter.com/Milk_362">
+                
+                <i class="fab fa-twitter"></i>
+                
+            </a>
+            
+            <a class="level-item button is-white is-marginless" target="_blank" title="Mail" href="mailto:i@hans362.cn">
+                
+                <i class="fas fa-envelope"></i>
+                
+            </a>
+            
+        </div>
+        
+    </div>
+</div>
+    
+        
+<div class="card widget" id="toc">
+    <div class="card-content">
+        <div class="menu">
+            <h3 class="menu-label">
+                目录
+            </h3>
+            <ul class="menu-list"><li>
+        <a class="is-flex" href="#所以这个需求是怎么产生的？" data-no-instant>
+        <span class="has-mr-6">1</span>
+        <span>所以这个需求是怎么产生的？</span>
+        </a></li><li>
+        <a class="is-flex" href="#然后…就是解决方案啦" data-no-instant>
+        <span class="has-mr-6">2</span>
+        <span>然后…就是解决方案啦</span>
+        </a></li><li>
+        <a class="is-flex" href="#总结" data-no-instant>
+        <span class="has-mr-6">3</span>
+        <span>总结</span>
+        </a></li></ul>
+        </div>
+    </div>
+</div>
+
+    
+        
+<div class="card widget">
+    <div class="card-content">
+        <div class="menu">
+            <h3 class="menu-label">
+                分类
+            </h3>
+            <ul class="menu-list">
+            <li>
+        <a class="level is-marginless" href="/categories/OI-笔记/">
+            <span class="level-start">
+                <span class="level-item">OI 笔记</span>
+            </span>
+            <span class="level-end">
+                <span class="level-item tag">1</span>
+            </span>
+        </a></li><li>
+        <a class="level is-marginless" href="/categories/周记/">
+            <span class="level-start">
+                <span class="level-item">周记</span>
+            </span>
+            <span class="level-end">
+                <span class="level-item tag">20</span>
+            </span>
+        </a></li><li>
+        <a class="level is-marginless" href="/categories/技术向/">
+            <span class="level-start">
+                <span class="level-item">技术向</span>
+            </span>
+            <span class="level-end">
+                <span class="level-item tag">14</span>
+            </span>
+        </a></li><li>
+        <a class="level is-marginless" href="/categories/杂文/">
+            <span class="level-start">
+                <span class="level-item">杂文</span>
+            </span>
+            <span class="level-end">
+                <span class="level-item tag">13</span>
+            </span>
+        </a></li><li>
+        <a class="level is-marginless" href="/categories/水/">
+            <span class="level-start">
+                <span class="level-item">水</span>
+            </span>
+            <span class="level-end">
+                <span class="level-item tag">11</span>
+            </span>
+        </a></li><li>
+        <a class="level is-marginless" href="/categories/测评/">
+            <span class="level-start">
+                <span class="level-item">测评</span>
+            </span>
+            <span class="level-end">
+                <span class="level-item tag">2</span>
+            </span>
+        </a></li><li>
+        <a class="level is-marginless" href="/categories/项目发布/">
+            <span class="level-start">
+                <span class="level-item">项目发布</span>
+            </span>
+            <span class="level-end">
+                <span class="level-item tag">3</span>
+            </span>
+        </a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+    
+        
+<div class="card widget">
+    <div class="card-content">
+        <h3 class="menu-label">
+            最新文章
+        </h3>
+        
+        <article class="media">
+            
+            <a href="/ThinkPad X201s 固态硬盘升级记/" class="media-left">
+                <p class="image is-64x64">
+                    <img class="thumbnail" src="https://blog-img-1251828412.file.myqcloud.com/2020/03/07/15835673614462.jpg" alt="ThinkPad X201s 固态硬盘升级记">
+                </p>
+            </a>
+            
+            <div class="media-content">
+                <div class="content">
+                    <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2020-03-07T18:49:27.000Z">2020-03-07</time></div>
+                    <a href="/ThinkPad X201s 固态硬盘升级记/" class="has-link-black-ter is-size-6">ThinkPad X201s 固态硬盘升级记</a>
+                    <p class="is-size-7 is-uppercase">
+                        <a class="has-link-grey -link" href="/categories/技术向/">技术向</a>
+                    </p>
+                </div>
+            </div>
+        </article>
+        
+        <article class="media">
+            
+            <a href="/一次任意文件上传漏洞的实战经历/" class="media-left">
+                <p class="image is-64x64">
+                    <img class="thumbnail" src="/images/thumbnail.svg" alt="一次任意文件上传漏洞的实战经历">
+                </p>
+            </a>
+            
+            <div class="media-content">
+                <div class="content">
+                    <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2020-02-29T20:23:26.000Z">2020-02-29</time></div>
+                    <a href="/一次任意文件上传漏洞的实战经历/" class="has-link-black-ter is-size-6">一次任意文件上传漏洞的实战经历</a>
+                    <p class="is-size-7 is-uppercase">
+                        <a class="has-link-grey -link" href="/categories/杂文/">杂文</a>
+                    </p>
+                </div>
+            </div>
+        </article>
+        
+        <article class="media">
+            
+            <a href="/【转载】不能把冬天唱成春的开始/" class="media-left">
+                <p class="image is-64x64">
+                    <img class="thumbnail" src="/images/thumbnail.svg" alt="【转载】不能把冬天唱成春的开始">
+                </p>
+            </a>
+            
+            <div class="media-content">
+                <div class="content">
+                    <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2020-02-12T20:23:26.000Z">2020-02-12</time></div>
+                    <a href="/【转载】不能把冬天唱成春的开始/" class="has-link-black-ter is-size-6">【转载】不能把冬天唱成春的开始</a>
+                    <p class="is-size-7 is-uppercase">
+                        <a class="has-link-grey -link" href="/categories/杂文/">杂文</a>
+                    </p>
+                </div>
+            </div>
+        </article>
+        
+        <article class="media">
+            
+            <a href="/【项目发布】2019-nCov 中国实时疫情信息聚合/" class="media-left">
+                <p class="image is-64x64">
+                    <img class="thumbnail" src="https://blog-img-1251828412.file.myqcloud.com/2020/01/31/Photo%20Jan%2031,%2012%2023%2008.jpeg" alt="【项目发布】2019-nCov 中国实时疫情信息聚合">
+                </p>
+            </a>
+            
+            <div class="media-content">
+                <div class="content">
+                    <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2020-01-31T14:30:31.000Z">2020-01-31</time></div>
+                    <a href="/【项目发布】2019-nCov 中国实时疫情信息聚合/" class="has-link-black-ter is-size-6">【项目发布】2019-nCov 中国实时疫情信息聚合</a>
+                    <p class="is-size-7 is-uppercase">
+                        <a class="has-link-grey -link" href="/categories/项目发布/">项目发布</a>
+                    </p>
+                </div>
+            </div>
+        </article>
+        
+        <article class="media">
+            
+            <a href="/题解 P1855 榨取kkksc03/" class="media-left">
+                <p class="image is-64x64">
+                    <img class="thumbnail" src="/images/thumbnail.svg" alt="【题解】P1855 榨取kkksc03">
+                </p>
+            </a>
+            
+            <div class="media-content">
+                <div class="content">
+                    <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2020-01-25T15:02:19.000Z">2020-01-25</time></div>
+                    <a href="/题解 P1855 榨取kkksc03/" class="has-link-black-ter is-size-6">【题解】P1855 榨取kkksc03</a>
+                    <p class="is-size-7 is-uppercase">
+                        <a class="has-link-grey -link" href="/categories/OI-笔记/">OI 笔记</a>
+                    </p>
+                </div>
+            </div>
+        </article>
+        
+    </div>
+</div>
+
+    
+        <div class="card widget">
+    <div class="card-content">
+        <div class="menu">
+        <h3 class="menu-label">
+            归档
+        </h3>
+        <ul class="menu-list">
+        
+        <li>
+            <a class="level is-marginless" href="/archives/2020/03/">
+                <span class="level-start">
+                    <span class="level-item">三月 2020</span>
+                </span>
+                <span class="level-end">
+                    <span class="level-item tag">1</span>
+                </span>
+            </a>
+        </li>
+        
+        <li>
+            <a class="level is-marginless" href="/archives/2020/02/">
+                <span class="level-start">
+                    <span class="level-item">二月 2020</span>
+                </span>
+                <span class="level-end">
+                    <span class="level-item tag">2</span>
+                </span>
+            </a>
+        </li>
+        
+        <li>
+            <a class="level is-marginless" href="/archives/2020/01/">
+                <span class="level-start">
+                    <span class="level-item">一月 2020</span>
+                </span>
+                <span class="level-end">
+                    <span class="level-item tag">3</span>
+                </span>
+            </a>
+        </li>
+        
+        <li>
+            <a class="level is-marginless" href="/archives/2019/12/">
+                <span class="level-start">
+                    <span class="level-item">十二月 2019</span>
+                </span>
+                <span class="level-end">
+                    <span class="level-item tag">1</span>
+                </span>
+            </a>
+        </li>
+        
+        <li>
+            <a class="level is-marginless" href="/archives/2019/11/">
+                <span class="level-start">
+                    <span class="level-item">十一月 2019</span>
+                </span>
+                <span class="level-end">
+                    <span class="level-item tag">3</span>
+                </span>
+            </a>
+        </li>
+        
+        <li>
+            <a class="level is-marginless" href="/archives/2019/10/">
+                <span class="level-start">
+                    <span class="level-item">十月 2019</span>
+                </span>
+                <span class="level-end">
+                    <span class="level-item tag">1</span>
+                </span>
+            </a>
+        </li>
+        
+        <li>
+            <a class="level is-marginless" href="/archives/2019/09/">
+                <span class="level-start">
+                    <span class="level-item">九月 2019</span>
+                </span>
+                <span class="level-end">
+                    <span class="level-item tag">1</span>
+                </span>
+            </a>
+        </li>
+        
+        <li>
+            <a class="level is-marginless" href="/archives/2019/08/">
+                <span class="level-start">
+                    <span class="level-item">八月 2019</span>
+                </span>
+                <span class="level-end">
+                    <span class="level-item tag">3</span>
+                </span>
+            </a>
+        </li>
+        
+        <li>
+            <a class="level is-marginless" href="/archives/2019/07/">
+                <span class="level-start">
+                    <span class="level-item">七月 2019</span>
+                </span>
+                <span class="level-end">
+                    <span class="level-item tag">2</span>
+                </span>
+            </a>
+        </li>
+        
+        <li>
+            <a class="level is-marginless" href="/archives/2019/06/">
+                <span class="level-start">
+                    <span class="level-item">六月 2019</span>
+                </span>
+                <span class="level-end">
+                    <span class="level-item tag">1</span>
+                </span>
+            </a>
+        </li>
+        
+        <li>
+            <a class="level is-marginless" href="/archives/2019/02/">
+                <span class="level-start">
+                    <span class="level-item">二月 2019</span>
+                </span>
+                <span class="level-end">
+                    <span class="level-item tag">2</span>
+                </span>
+            </a>
+        </li>
+        
+        <li>
+            <a class="level is-marginless" href="/archives/2019/01/">
+                <span class="level-start">
+                    <span class="level-item">一月 2019</span>
+                </span>
+                <span class="level-end">
+                    <span class="level-item tag">2</span>
+                </span>
+            </a>
+        </li>
+        
+        <li>
+            <a class="level is-marginless" href="/archives/2018/08/">
+                <span class="level-start">
+                    <span class="level-item">八月 2018</span>
+                </span>
+                <span class="level-end">
+                    <span class="level-item tag">3</span>
+                </span>
+            </a>
+        </li>
+        
+        <li>
+            <a class="level is-marginless" href="/archives/2018/07/">
+                <span class="level-start">
+                    <span class="level-item">七月 2018</span>
+                </span>
+                <span class="level-end">
+                    <span class="level-item tag">4</span>
+                </span>
+            </a>
+        </li>
+        
+        <li>
+            <a class="level is-marginless" href="/archives/2018/06/">
+                <span class="level-start">
+                    <span class="level-item">六月 2018</span>
+                </span>
+                <span class="level-end">
+                    <span class="level-item tag">3</span>
+                </span>
+            </a>
+        </li>
+        
+        <li>
+            <a class="level is-marginless" href="/archives/2018/05/">
+                <span class="level-start">
+                    <span class="level-item">五月 2018</span>
+                </span>
+                <span class="level-end">
+                    <span class="level-item tag">2</span>
+                </span>
+            </a>
+        </li>
+        
+        <li>
+            <a class="level is-marginless" href="/archives/2018/04/">
+                <span class="level-start">
+                    <span class="level-item">四月 2018</span>
+                </span>
+                <span class="level-end">
+                    <span class="level-item tag">2</span>
+                </span>
+            </a>
+        </li>
+        
+        <li>
+            <a class="level is-marginless" href="/archives/2018/03/">
+                <span class="level-start">
+                    <span class="level-item">三月 2018</span>
+                </span>
+                <span class="level-end">
+                    <span class="level-item tag">5</span>
+                </span>
+            </a>
+        </li>
+        
+        <li>
+            <a class="level is-marginless" href="/archives/2018/02/">
+                <span class="level-start">
+                    <span class="level-item">二月 2018</span>
+                </span>
+                <span class="level-end">
+                    <span class="level-item tag">4</span>
+                </span>
+            </a>
+        </li>
+        
+        <li>
+            <a class="level is-marginless" href="/archives/2018/01/">
+                <span class="level-start">
+                    <span class="level-item">一月 2018</span>
+                </span>
+                <span class="level-end">
+                    <span class="level-item tag">8</span>
+                </span>
+            </a>
+        </li>
+        
+        <li>
+            <a class="level is-marginless" href="/archives/2017/12/">
+                <span class="level-start">
+                    <span class="level-item">十二月 2017</span>
+                </span>
+                <span class="level-end">
+                    <span class="level-item tag">11</span>
+                </span>
+            </a>
+        </li>
+        
+        </ul>
+        </div>
+    </div>
+</div>
+    
+    
+        <div class="column-right-shadow is-hidden-widescreen ">
+        
+        </div>
+    
+</div>
+
+                
+            </div>
+        </div>
+    </section>
+      
+<footer class="footer">
+    <div class="container">
+        <div class="level">
+            <div class="level-start has-text-centered-mobile">
+                <a class="footer-logo is-block has-mb-6" href="/">
+                
+                    <img src="https://blog-img-1251828412.file.myqcloud.com/banner.jpeg" alt="如何优雅地使用 VLC 播放辣鸡 APP 上的英语听力" height="28">
+                
+                </a>
+                <p class="is-size-7">
+                &copy; 2020 Hans362&nbsp;
+                Powered by <a href="http://hexo.io/" target="_blank">Hexo</a> & <a href="http://github.com/ppoffice/hexo-theme-icarus">Icarus</a>
+                </p>
+            </div>
+            <div class="level-end">
+            
+                <div class="field has-addons is-flex-center-mobile has-mt-5-mobile is-flex-wrap is-flex-middle">
+                
+                
+                <p class="control">
+                    <a class="button is-white is-large" target="_blank" title="Creative Commons" href="https://creativecommons.org/">
+                        
+                        <i class="fab fa-creative-commons"></i>
+                        
+                    </a>
+                </p>
+                
+                <p class="control">
+                    <a class="button is-white is-large" target="_blank" title="Attribution 4.0 International" href="https://creativecommons.org/licenses/by/4.0/">
+                        
+                        <i class="fab fa-creative-commons-by"></i>
+                        
+                    </a>
+                </p>
+                
+                </div>
+            
+             
+            </div>
+        </div>
+
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- 首页横幅广告 -->
+<ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-8746554831230893" data-ad-slot="6356225601"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+    </div>
+</footer>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/moment@2.22.2/min/moment-with-locales.min.js"></script>
+<script>moment.locale("zh-CN");</script>
+
+
+    
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery@1.6.8/dist/js/lightgallery.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/js/jquery.justifiedGallery.min.js" defer></script>
+    <script src="/js/gallery.js" defer></script>
+    
+
+    
+    
+
+<div id="outdated">
+    <h6>Your browser is out-of-date!</h6>
+    <p>Update your browser to view this website correctly. <a id="btnUpdateBrowser" href="http://outdatedbrowser.com/">Update
+            my browser now </a></p>
+    <p class="last"><a href="#" id="btnCloseUpdateBrowser" title="Close">&times;</a></p>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/outdatedbrowser@1.1.5/outdatedbrowser/outdatedbrowser.min.js" defer></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        outdatedBrowser({
+            bgColor: '#f25648',
+            color: '#ffffff',
+            lowerThan: 'flex'
+        });
+    });
+</script>
+
+
+    
+    
+    
+    <script src="/js/animation.js"></script>
+    
+
+    
+    
+<script src="https://cdn.jsdelivr.net/npm/mathjax@2.7.5/unpacked/MathJax.js?config=TeX-MML-AM_CHTML" defer></script>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    MathJax.Hub.Config({
+        showProcessingMessages: false, 
+        messageStyle: "none", 
+        extensions: ["tex2jax.js"],
+        jax: ["input/TeX", "output/HTML-CSS"],
+        tex2jax: {
+            inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+            displayMath: [ ['$$','$$'], ["\\[","\\]"] ]
+        },
+        'HTML-CSS': {matchFontHeight: false},
+        SVG: {matchFontHeight: false},
+        CommonHTML: {matchFontHeight: false},
+        messageStyle: "none"
+    });
+});
+</script>
+
+    
+    
+
+<a id="back-to-top" title="回到顶端" href="javascript:;">
+    <i class="fas fa-chevron-up"></i>
+</a>
+<script src="/js/back-to-top.js" defer></script>
+
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+    
+
+
+<script src="/js/main.js" defer></script>
+  
+  
+    
+    <div class="searchbox ins-search">
+    <div class="searchbox-container ins-search-container">
+        <div class="searchbox-input-wrapper">
+            <input type="text" class="searchbox-input ins-search-input" placeholder="想要查找什么...">
+            <span class="searchbox-close ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
+        </div>
+        <div class="searchbox-result-wrapper ins-section-wrapper">
+            <div class="ins-section-container"></div>
+        </div>
+    </div>
+</div>
+<script>
+    (function (window) {
+        var INSIGHT_CONFIG = {
+            TRANSLATION: {
+                POSTS: '文章',
+                PAGES: '页面',
+                CATEGORIES: '分类',
+                TAGS: '标签',
+                UNTITLED: '(无标题)',
+            },
+            CONTENT_URL: '/content.json',
+        };
+        window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+    })(window);
+</script>
+<script src="/js/insight.js" defer></script>
+<link rel="stylesheet" href="/css/search.css">
+<link rel="stylesheet" href="/css/insight.css">
+    
+
+</body>
+</html>
