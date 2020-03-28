@@ -163,7 +163,7 @@
                 <span class="level-item has-text-grey">
                     
                     
-                    9 分钟 读完 (大约 1361 个字)
+                    9 分钟 读完 (大约 1362 个字)
                 </span>
                 
             </div>
@@ -181,38 +181,16 @@
 <p>以上是我最理想的写博客的流程，而今天我终于实现啦！😆</p>
 <p>众所周知，静态博客的一大特点就是没有管理后台，因此常规的操作流程一般是写文章-丢进_posts文件夹-手动执行构建-发布。事实上我也一直是这么干的，得益于 Coding 的 CloudStudio，我至少可以不用电脑随时随地执行这套繁琐的操作，觉得这样将就用着也还能接受。但是最近发现 CloudStudio 经常卡半天进不去，再加上 Coding 升级后混乱的用户体验（个人版、企业版、团队版、腾讯云开发者全部杂糅在一起），我还是决定放弃这套糟糕的流程。</p>
 <p>所以，不如咱就试试让 Travis CI 替咱做掉这些繁琐的工作吧！</p>
-<h2 id="需求分析"><a href="#需求分析" class="headerlink" title="需求分析"></a>需求分析</h2><p>我想要达到的最终目标是只需要向存放文章的仓库推送 Markdown 文件，就会自动触发 Travis CI 从文章仓库拉取文章，配置环境，自动生成静态文件，自动部署至 GitHub Pages，也就是说，我只要安安心心的写好文章并提交推送，剩下的事情 Travis CI 都会帮我做好。</p>
-<h2 id="方案设计"><a href="#方案设计" class="headerlink" title="方案设计"></a>方案设计</h2><p>首先需要两个 GitHub 公共仓库：</p>
-<p>hexo-theme-hans362 //存放 Hexo 博客主题文件（基于 ICARUS 二次修改）<br>𠃊master //默认分支</p>
-<p>文件结构：</p>
-<p><img src="https://blog-img-1251828412.file.myqcloud.com/2020/03/28/15853825237235.jpg" alt></p>
-<p>hans362.github.io //博客主仓库<br>𠃊source //默认分支，存放 Markdown 文章和相关配置文件<br>𠃊master //GitHub Pages 分支，存放生成的静态文件</p>
-<p>文件结构：</p>
-<p><img src="https://blog-img-1251828412.file.myqcloud.com/2020/03/28/15853825371753.jpg" alt></p>
-<p><img src="https://blog-img-1251828412.file.myqcloud.com/2020/03/28/15853825532780.jpg" alt></p>
-<p>多分支的那个仓库 source 分支可以这样操作：</p>
-<figure class="highlight vim hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">git init</span><br><span class="line">git remote <span class="hljs-built_in">add</span> origin git@github.<span class="hljs-keyword">com</span>:hans362/hans362.github.io.git</span><br><span class="line">git checkout --orphan <span class="hljs-keyword">source</span></span><br><span class="line">git <span class="hljs-built_in">add</span> .</span><br><span class="line">git commit -<span class="hljs-keyword">m</span> <span class="hljs-string">"First commit"</span></span><br><span class="line">git push origin <span class="hljs-keyword">source</span>:<span class="hljs-keyword">source</span></span><br></pre></td></tr></table></figure>
-<p>iPad 上写文章时只需要在 Working Copy 里 clone 主仓库下的 source 分支，写好文章后 commit + push 就完事啦～</p>
-<h2 id="构建脚本"><a href="#构建脚本" class="headerlink" title="构建脚本"></a>构建脚本</h2><p>重点其实是在这，在 Travis CI 能帮你干活之前你至少得先教会人家应该怎么做，对吧？(≧∇≦)</p>
-<p>存放于主分支 source 下的 <code>.travis.yml</code> 就是你和 Travis CI 沟通的桥梁。</p>
-<p>下面就是我的 <code>.travis.yml</code>：</p>
-<figure class="highlight hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br></pre></td><td class="code"><pre><span class="line"><span class="hljs-attribute">language</span>: node_js</span><br><span class="line"><span class="hljs-attribute">node_js</span>: lts/*</span><br><span class="line"></span><br><span class="line"><span class="hljs-attribute">branches:</span></span><br><span class="line">  only:</span><br><span class="line">  - source</span><br><span class="line"></span><br><span class="line"><span class="hljs-attribute">cache</span>: npm</span><br><span class="line"></span><br><span class="line"><span class="hljs-attribute">before_install:</span></span><br><span class="line"><span class="hljs-attribute"></span></span><br><span class="line"># 配置 Git 信息</span><br><span class="line">- git config --global user.name "Hans362"</span><br><span class="line">- git config --global user.email "i@hans362.cn"</span><br><span class="line"># 赋予部署脚本可执行权限（很重要！不然你就会像我一样死活部署不上去w）</span><br><span class="line">- chmod +x .travis/deploy.sh</span><br><span class="line"></span><br><span class="line"><span class="hljs-attribute">install:</span></span><br><span class="line"><span class="hljs-attribute"></span></span><br><span class="line"># 检测主题是否存在，不存在就 clone 一个</span><br><span class="line">- if [ ! -d "themes/icarus" ]; then git clone $&#123;THEME&#125; themes/icarus; fi</span><br><span class="line"># 安装依赖</span><br><span class="line">- npm install</span><br><span class="line"></span><br><span class="line"><span class="hljs-attribute">script:</span></span><br><span class="line"><span class="hljs-attribute"></span></span><br><span class="line"># Hexo 生成静态页面</span><br><span class="line">- hexo clean</span><br><span class="line">- hexo generate</span><br><span class="line"></span><br><span class="line"><span class="hljs-attribute">after_success:</span></span><br><span class="line"><span class="hljs-attribute"></span></span><br><span class="line"># 部署（这里把部署的操作单独写到了另一个脚本文件里）</span><br><span class="line">- .travis/deploy.sh</span><br><span class="line"></span><br><span class="line"># 环境变量</span><br><span class="line"><span class="hljs-attribute">env:</span></span><br><span class="line">    global:</span><br><span class="line">        # 主仓库地址</span><br><span class="line">        - GH_REF: https://hans362:$&#123;GITHUB_TOKEN&#125;@github.com/hans362/hans362.github.io.git</span><br><span class="line">        # 主题仓库地址</span><br><span class="line">        - THEME: https://hans362:$&#123;GITHUB_TOKEN&#125;@github.com/hans362/hexo-theme-hans362.git</span><br></pre></td></tr></table></figure>
-<p>因为我把部署脚本单独拎出来了，所以还需要在 source 分支下创建一个 .travis 文件夹，里面写好 <code>deploy.sh</code> 脚本：</p>
-<figure class="highlight bash hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="hljs-meta">#!/bin/bash</span></span><br><span class="line"><span class="hljs-built_in">set</span> -ev</span><br><span class="line"><span class="hljs-comment"># 设置时区</span></span><br><span class="line"><span class="hljs-built_in">export</span> TZ=<span class="hljs-string">'Asia/Shanghai'</span></span><br><span class="line"></span><br><span class="line"><span class="hljs-comment"># 先 clone 避免 force commit</span></span><br><span class="line">git <span class="hljs-built_in">clone</span> -b master <span class="hljs-variable">$&#123;GH_REF&#125;</span> .deploy_git</span><br><span class="line"></span><br><span class="line"><span class="hljs-built_in">cd</span> .deploy_git</span><br><span class="line">git checkout master</span><br><span class="line">mv .git/ ../public/</span><br><span class="line"><span class="hljs-built_in">cd</span> ../public</span><br><span class="line"></span><br><span class="line">git add .</span><br><span class="line">git commit -m <span class="hljs-string">"Site updated: `date +"</span>%Y-%m-%d %H:%M:%S<span class="hljs-string">"`"</span></span><br><span class="line"><span class="hljs-comment"># 推送到主仓库的 master 分支</span></span><br><span class="line">git push origin master:master --force --quiet</span><br></pre></td></tr></table></figure>
-<p>然后细心的你可能发现了上面配置文件中有两个 <code>${GITHUB_TOKEN}</code>，这里应该填写你的 GitHub Personal Access Token，不知道这是啥的自行解决，总之需要生成一个并且牢牢记住。当然我相信你不会笨到直接把脚本里的 <code>${GITHUB_TOKEN}</code> 替换成你的 TOKEN，因为存放配置文件的仓库是向世界公开的，这样做无疑于引狼入室。</p>
-<p>正确做法就是把 <code>${GITHUB_TOKEN}</code> 原封不动的留在那，然后到 Travis CI 中设置环境变量，变量名为 GITHUB_TOKEN，变量值为你牢牢记住的那个 TOKEN，这样当代码运行至这一行时就可以从 Travis CI 中自动读取到你的 TOKEN 并完成替换。</p>
-<p><img src="https://blog-img-1251828412.file.myqcloud.com/2020/03/28/15853840923226.jpg" alt></p>
-<p>至此，构建脚本就配置完成了。</p>
-<h2 id="Now-enjoy"><a href="#Now-enjoy" class="headerlink" title="Now, enjoy~"></a>Now, enjoy~</h2><p>如果一切无误的话，你可以尝试推送一篇文章到主仓库的 source 分支，这会触发 Travis CI 按照你教TA的步骤完成后续的一系列操作，你只需要静静地喝杯茶，在一分钟后打开你的博客，就可以看到你写的新文章啦～</p>
-<p><img src="https://blog-img-1251828412.file.myqcloud.com/2020/03/28/15853843896828.jpg" alt></p>
-<h2 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h2><p>非常感谢以下文章作者～</p>
-<ol>
-<li><a href="https://printempw.github.io/deploy-hexo-blog-automatically-with-travis-ci/" target="_blank" rel="noopener">使用 Travis CI 自动部署 Hexo 博客</a></li>
-<li><a href="https://www.jianshu.com/p/f8fb2d949c95" target="_blank" rel="noopener">使用Travis-CI持续构建Hexo博客</a></li>
-</ol>
-
         </div>
         
+        
+        <div class="level is-mobile">
+            <div class="level-start">
+                <div class="level-item">
+                <a class="button is-size-7 is-light" href="/Travis CI + Hexo 实现静态博客自动部署/#more">阅读全文</a>
+                </div>
+            </div>
+        </div>
         
         
     </div>

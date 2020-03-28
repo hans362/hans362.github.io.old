@@ -19,7 +19,7 @@
 <meta property="og:image" content="https://blog-img-1251828412.file.myqcloud.com/2020/03/28/15853825532780.jpg">
 <meta property="og:image" content="https://blog-img-1251828412.file.myqcloud.com/2020/03/28/15853840923226.jpg">
 <meta property="og:image" content="https://blog-img-1251828412.file.myqcloud.com/2020/03/28/15853843896828.jpg">
-<meta property="og:updated_time" content="2020-03-28T08:47:01.008Z">
+<meta property="og:updated_time" content="2020-03-28T08:51:40.731Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Travis CI + Hexo 实现静态博客自动部署">
 <meta name="twitter:description" content="本文使用 MWeb Markdown 编辑器写于 iPad Air 2，利用 iOS 端迄今为止最佳的可视化 Git 工具 Working Copy 提交至博客仓库，经 Travis CI 自动构建后自动发布至 GitHub Pages。  以上是我最理想的写博客的流程，而今天我终于实现啦！😆 众所周知，静态博客的一大特点就是没有管理后台，因此常规的操作流程一般是写文章-丢进_posts文件夹">
@@ -173,7 +173,7 @@
                 <span class="level-item has-text-grey">
                     
                     
-                    9 分钟 读完 (大约 1361 个字)
+                    9 分钟 读完 (大约 1362 个字)
                 </span>
                 
             </div>
@@ -191,6 +191,7 @@
 <p>以上是我最理想的写博客的流程，而今天我终于实现啦！😆</p>
 <p>众所周知，静态博客的一大特点就是没有管理后台，因此常规的操作流程一般是写文章-丢进_posts文件夹-手动执行构建-发布。事实上我也一直是这么干的，得益于 Coding 的 CloudStudio，我至少可以不用电脑随时随地执行这套繁琐的操作，觉得这样将就用着也还能接受。但是最近发现 CloudStudio 经常卡半天进不去，再加上 Coding 升级后混乱的用户体验（个人版、企业版、团队版、腾讯云开发者全部杂糅在一起），我还是决定放弃这套糟糕的流程。</p>
 <p>所以，不如咱就试试让 Travis CI 替咱做掉这些繁琐的工作吧！</p>
+<a id="more"></a>
 <h2 id="需求分析"><a href="#需求分析" class="headerlink" title="需求分析"></a>需求分析</h2><p>我想要达到的最终目标是只需要向存放文章的仓库推送 Markdown 文件，就会自动触发 Travis CI 从文章仓库拉取文章，配置环境，自动生成静态文件，自动部署至 GitHub Pages，也就是说，我只要安安心心的写好文章并提交推送，剩下的事情 Travis CI 都会帮我做好。</p>
 <h2 id="方案设计"><a href="#方案设计" class="headerlink" title="方案设计"></a>方案设计</h2><p>首先需要两个 GitHub 公共仓库：</p>
 <p>hexo-theme-hans362 //存放 Hexo 博客主题文件（基于 ICARUS 二次修改）<br>𠃊master //默认分支</p>
