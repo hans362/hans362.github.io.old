@@ -11,6 +11,7 @@ before_install:
 
 - git config --global user.name "Hans362"
 - git config --global user.email "i@hans362.cn"
+- chmod +x .travis/deploy.sh
 
 install:
 
@@ -24,14 +25,7 @@ script:
 
 after_success:
 
-- export TZ='Asia/Shanghai'
-- git clone -b master ${GH_REF} .deploy_git
-- cd .deploy_git
-- git checkout master
-- mv .git/ ../public/
-- cd ../public
-- git add .
-- git commit -m "Site updated: `date +"%Y-%m-%d %H:%M:%S"`"
+- .travis/deploy.sh
 
 env:
     global:
