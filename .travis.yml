@@ -1,0 +1,39 @@
+language: node_js
+node_js: lts/*
+
+branches:
+  only:
+  - source
+
+cache: npm
+
+before_install:
+
+- git config --global user.name "Hans362"
+- git config --global user.email "i@hans362.cn"
+
+install:
+
+- if [ ! -d "themes/icarus" ]; then git clone ${THEME} themes/icarus; fi
+- npm install
+
+script:
+
+- hexo clean
+- hexo generate
+
+after_success:
+
+- export TZ='Asia/Shanghai'
+- git clone -b master ${GH_REF} .deploy_git
+- cd .deploy_git
+- git checkout master
+- mv .git/ ../public/
+- cd ../public
+- git add .
+- git commit -m "Site updated: `date +"%Y-%m-%d %H:%M:%S"`"
+
+env:
+    global:
+        - GH_REF: https://hans362:${GITHUB_TOKEN}@github.com/hans362/hans362.github.io.git
+        - THEME: https://hans362:${GITHUB_TOKEN}@github.com/hans362/hexo-theme-hans362.git
