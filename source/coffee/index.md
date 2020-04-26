@@ -13,11 +13,9 @@ date: 2018-11-06 20:01:01
 
 <img src="https://blog.hans362.cn/usr/uploads/2017/12/2839222710.jpeg" width = "170" height = "250" alt="wechat-pay.jpg" /><img src="https://blog.hans362.cn/usr/uploads/2017/12/2532655860.jpeg" width = "170" height = "250" alt="alipay.jpg" />
 
-哦...对了...还有一种非常exciting的方式...
+~~哦...对了...还有一种非常exciting的方式...帮我挖个矿呗～（由于这种方式是匿名的，您的信息并不能出现在下面的表格中QwQ）~~某浏览器挖矿网站已经跑路好久了我居然还挂着
 
-<iframe height="304" width="300" style="border:0;background:none;" scrolling="no" frameborder="0" allowtransparency="true" src="https://authedmine.com/media/miner.html?key=Igep6z2wQPeUcRlgEqRIBqgjRYuJnahV"></iframe>
-
-帮我挖个矿呗～（由于这种方式是匿名的，您的信息并不能出现在下面的表格中QwQ）
+via 爱发电：https://afdian.net/@hans362
 
 ## 以及一种不用花一分钱的方式 ##
 
