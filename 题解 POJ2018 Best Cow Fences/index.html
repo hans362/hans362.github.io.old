@@ -2,29 +2,29 @@
 <html lang="zh">
 <head><meta name="generator" content="Hexo 3.9.0">
     <meta charset="utf-8">
-<title>Hans362 &#39;s Blog</title>
+<title>【题解】POJ2018 Best Cow Fences - Hans362 &#39;s Blog</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 
 
-    <meta name="description" content="title: 【题解】POJ2018 Best Cow Fencesdate: 2020-05-05 16:09:28toc: truecategories: OI 笔记tags: []thumbnail:—最近终于开始学《提高篇》了…然后就刷到了这一题… 《提高篇》书上写的这道题的思路说实话我看了很久都不太能理解（当然现在明白了），所以就以我的角度来谈谈这道题该怎么下手做出正解～">
+    <meta name="description" content="最近终于开始学《提高篇》了…然后就刷到了这一题… 《提高篇》书上写的这道题的思路说实话我看了很久都不太能理解（当然现在明白了），所以就以我的角度来谈谈这道题该怎么下手做出正解～">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hans362 &#39;s Blog">
+<meta property="og:title" content="【题解】POJ2018 Best Cow Fences">
 <meta property="og:url" content="https://hans362.github.io/题解 POJ2018 Best Cow Fences/index.html">
 <meta property="og:site_name" content="Hans362 &#39;s Blog">
-<meta property="og:description" content="title: 【题解】POJ2018 Best Cow Fencesdate: 2020-05-05 16:09:28toc: truecategories: OI 笔记tags: []thumbnail:—最近终于开始学《提高篇》了…然后就刷到了这一题… 《提高篇》书上写的这道题的思路说实话我看了很久都不太能理解（当然现在明白了），所以就以我的角度来谈谈这道题该怎么下手做出正解～">
+<meta property="og:description" content="最近终于开始学《提高篇》了…然后就刷到了这一题… 《提高篇》书上写的这道题的思路说实话我看了很久都不太能理解（当然现在明白了），所以就以我的角度来谈谈这道题该怎么下手做出正解～">
 <meta property="og:locale" content="zh-CN">
 <meta property="og:image" content="https://blog-img-1251828412.file.myqcloud.com/2020/05/05/15886597191286.jpg">
-<meta property="og:updated_time" content="2020-05-05T07:56:07.812Z">
+<meta property="og:updated_time" content="2020-05-05T08:10:33.933Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hans362 &#39;s Blog">
-<meta name="twitter:description" content="title: 【题解】POJ2018 Best Cow Fencesdate: 2020-05-05 16:09:28toc: truecategories: OI 笔记tags: []thumbnail:—最近终于开始学《提高篇》了…然后就刷到了这一题… 《提高篇》书上写的这道题的思路说实话我看了很久都不太能理解（当然现在明白了），所以就以我的角度来谈谈这道题该怎么下手做出正解～">
+<meta name="twitter:title" content="【题解】POJ2018 Best Cow Fences">
+<meta name="twitter:description" content="最近终于开始学《提高篇》了…然后就刷到了这一题… 《提高篇》书上写的这道题的思路说实话我看了很久都不太能理解（当然现在明白了），所以就以我的角度来谈谈这道题该怎么下手做出正解～">
 <meta name="twitter:image" content="https://blog-img-1251828412.file.myqcloud.com/2020/05/05/15886597191286.jpg">
 <meta name="twitter:creator" content="@Milk_362">
 
 
 
-<link rel="alternative" href="/atom.xml" title type="application/atom+xml">
+<link rel="alternative" href="/atom.xml" title="【题解】POJ2018 Best Cow Fences" type="application/atom+xml">
 
 
 
@@ -104,7 +104,7 @@
         <div class="navbar-brand is-flex-center">
             <a class="navbar-item navbar-logo" href="/">
             
-                <img src="https://blog-img-1251828412.file.myqcloud.com/banner.jpeg" alt height="28">
+                <img src="https://blog-img-1251828412.file.myqcloud.com/banner.jpeg" alt="【题解】POJ2018 Best Cow Fences" height="28">
             
             </a>
         </div>
@@ -129,6 +129,10 @@
             <div class="navbar-end">
                 
                 
+                <a class="navbar-item is-hidden-tablet catalogue" title="目录" href="javascript:;">
+                    <i class="fas fa-list-ul"></i>
+                </a>
+                
                 
                 <a class="navbar-item search" title="搜索" href="javascript:;">
                     <i class="fas fa-search"></i>
@@ -149,13 +153,17 @@
         
         <div class="level article-meta is-size-7 is-uppercase is-mobile is-overflow-x-auto">
             <div class="level-left">
-                <time class="level-item has-text-grey" datetime="2020-05-05T07:56:07.812Z">2020-05-05</time>
+                <time class="level-item has-text-grey" datetime="2020-05-05T16:09:28.000Z">2020-05-05</time>
+                
+                <div class="level-item">
+                <a class="has-link-grey -link" href="/categories/OI-笔记/">OI 笔记</a>
+                </div>
                 
                 
                 <span class="level-item has-text-grey">
                     
                     
-                    13 分钟 读完 (大约 1900 个字)
+                    13 分钟 读完 (大约 1881 个字)
                 </span>
                 
             </div>
@@ -163,11 +171,11 @@
         
         <h1 class="title is-size-3 is-size-4-mobile has-text-weight-normal">
             
-                
+                【题解】POJ2018 Best Cow Fences
             
         </h1>
         <div class="content">
-            <p>title: 【题解】POJ2018 Best Cow Fences<br>date: 2020-05-05 16:09:28<br>toc: true<br>categories: OI 笔记<br>tags: []<br>thumbnail:<br>—<br>最近终于开始学《提高篇》了…然后就刷到了这一题…</p>
+            <p>最近终于开始学《提高篇》了…然后就刷到了这一题…</p>
 <p>《提高篇》书上写的这道题的思路说实话我看了很久都不太能理解（当然现在明白了），所以就以我的角度来谈谈这道题该怎么下手做出正解～</p>
 <a id="more"></a>
 <h2 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h2><p>原题是 POJ2018 但是好像也是从 USACO 搬运过来的？</p>
@@ -405,6 +413,29 @@ var dsqjs = new DisqusJS({
 </div>
     
         
+<div class="card widget" id="toc">
+    <div class="card-content">
+        <div class="menu">
+            <h3 class="menu-label">
+                目录
+            </h3>
+            <ul class="menu-list"><li>
+        <a class="is-flex" href="#题目" data-no-instant>
+        <span class="has-mr-6">1</span>
+        <span>题目</span>
+        </a></li><li>
+        <a class="is-flex" href="#开工！" data-no-instant>
+        <span class="has-mr-6">2</span>
+        <span>开工！</span>
+        </a></li><li>
+        <a class="is-flex" href="#还没完呢" data-no-instant>
+        <span class="has-mr-6">3</span>
+        <span>还没完呢</span>
+        </a></li></ul>
+        </div>
+    </div>
+</div>
+
     
         
 <div class="card widget">
@@ -420,7 +451,7 @@ var dsqjs = new DisqusJS({
                 <span class="level-item">OI 笔记</span>
             </span>
             <span class="level-end">
-                <span class="level-item tag">1</span>
+                <span class="level-item tag">2</span>
             </span>
         </a></li><li>
         <a class="level is-marginless" href="/categories/周记/">
@@ -487,16 +518,16 @@ var dsqjs = new DisqusJS({
             
             <a href="/题解 POJ2018 Best Cow Fences/" class="media-left">
                 <p class="image is-64x64">
-                    <img class="thumbnail" src="/images/thumbnail.svg" alt>
+                    <img class="thumbnail" src="/images/thumbnail.svg" alt="【题解】POJ2018 Best Cow Fences">
                 </p>
             </a>
             
             <div class="media-content">
                 <div class="content">
-                    <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2020-05-05T07:56:07.812Z">2020-05-05</time></div>
-                    <a href="/题解 POJ2018 Best Cow Fences/" class="has-link-black-ter is-size-6"></a>
+                    <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2020-05-05T16:09:28.000Z">2020-05-05</time></div>
+                    <a href="/题解 POJ2018 Best Cow Fences/" class="has-link-black-ter is-size-6">【题解】POJ2018 Best Cow Fences</a>
                     <p class="is-size-7 is-uppercase">
-                        
+                        <a class="has-link-grey -link" href="/categories/OI-笔记/">OI 笔记</a>
                     </p>
                 </div>
             </div>
@@ -866,7 +897,7 @@ var dsqjs = new DisqusJS({
             <div class="level-start has-text-centered-mobile">
                 <a class="footer-logo is-block has-mb-6" href="/">
                 
-                    <img src="https://blog-img-1251828412.file.myqcloud.com/banner.jpeg" alt height="28">
+                    <img src="https://blog-img-1251828412.file.myqcloud.com/banner.jpeg" alt="【题解】POJ2018 Best Cow Fences" height="28">
                 
                 </a>
                 <p class="is-size-7">
