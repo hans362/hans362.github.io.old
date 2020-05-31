@@ -21,10 +21,13 @@ date: 2018-11-06 19:59:48
 ## Hans362出没地点 ##
 
 邮箱：i@hans362.cn
-Telegram：@Hans362
-QQ：???
+Telegram：https://t.me/hans362
+Teleblog：https://t.me/Hans362sTeleblog
+GitHub：https://github.com/hans362
+QQ：???不存在的
 还有就是本博客啦～
-其中TG不太常用因为....梯子不太稳
+~~其中TG不太常用因为....梯子不太稳~~
+TG 现已成为最常出没地点
 
 ## 关于Hans362 's Blog ##
 
