@@ -13,7 +13,7 @@ thumbnail: https://blog-img-1251828412.file.myqcloud.com/2020/07/10/159437334853
 
 ![](https://blog-img-1251828412.file.myqcloud.com/2020/07/10/15943670300207.jpg)
 
-（小米路由器3包装盒，确实写着千兆路由器，要你有何用？恕我直言，即使作为米粉我也觉得小米的路由器就垃圾，还是别碰比较好）
+（小米路由器3包装盒，确实写着千兆路由器，然而指的是 WLAN 速率，要你有何用？恕我直言，小米的路由器就垃圾，还是别碰比较好）
 
 于是趁着这段时间有空，自己瞎入了一款 ARMv8 开发板，是 FriendlyARM 友善之臂的 NanoPi R2S，来开箱做个测评，顺便谈谈我是如何用它优化家里的网络的～
 
@@ -121,9 +121,21 @@ thumbnail: https://blog-img-1251828412.file.myqcloud.com/2020/07/10/159437334853
 
 ![](https://blog-img-1251828412.file.myqcloud.com/2020/07/10/15943707768254.jpg)
 
-电信测试结果：500Mbps 跑满（忘截图了...）
+电信测试结果：500Mbps 跑满
 
-某不可描述测试：（用的是 WiFi 在 iPad 上测的...其实远不止这点）
+![](https://blog-img-1251828412.file.myqcloud.com/2020/07/15/15947996046352.png)
+
+![](https://blog-img-1251828412.file.myqcloud.com/2020/07/15/15947996963090.png)
+
+Speedtest.net 测试结果：500Mbps 跑满（因为某些原因显示成了 Google Cloud
+
+![](https://blog-img-1251828412.file.myqcloud.com/2020/07/15/15947996869850.jpg)
+
+某不可描述测试：
+
+![](https://blog-img-1251828412.file.myqcloud.com/2020/07/15/15947997383283.png)
+
+某不可描述测试x2：（用的是 WiFi 在 iPad 上测的...其实远不止这点）
 
 ![](https://blog-img-1251828412.file.myqcloud.com/2020/07/10/15943709722321.jpg)
 
@@ -143,6 +155,10 @@ LuCI 上有 Docker 的相关说明，安装教程配置好 Portainer 然后就�
 
 ![](https://blog-img-1251828412.file.myqcloud.com/2020/07/10/15943712532877.jpg)
 （自己的 Git 仓库～~~弃用 GitHub 指日可待~~
+
+![](https://blog-img-1251828412.file.myqcloud.com/2020/07/15/15947998301885.jpg)
+![](https://blog-img-1251828412.file.myqcloud.com/2020/07/15/15947998302370.png)
+（利用 HomeAssistant 将米家生态链产品接入 HomeKit）
 
 除此之外还有 Samba 共享、打印机共享等
 
