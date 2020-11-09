@@ -15,7 +15,7 @@
 <meta property="og:description" content="最近事情是真的多，拼命赶各种 Deadline 准备各种考试都好久没更新博客了，总之等我哪天有空了再发一篇周记说说近况吧 那么这篇文章是我在2020年10月11日参加的 CSP-S 初赛的游记～ 去年初赛游记请移步：2019 CSP-S 初赛游记">
 <meta property="og:locale" content="zh-CN">
 <meta property="og:image" content="https://blog-img-1251828412.file.myqcloud.com/2020/10/11/Photo%20Oct%2011,%2021%2040%2027.png">
-<meta property="og:updated_time" content="2020-10-11T14:12:23.540Z">
+<meta property="og:updated_time" content="2020-11-09T23:33:10.069Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="2020 CSP-S 初赛游记">
 <meta name="twitter:description" content="最近事情是真的多，拼命赶各种 Deadline 准备各种考试都好久没更新博客了，总之等我哪天有空了再发一篇周记说说近况吧 那么这篇文章是我在2020年10月11日参加的 CSP-S 初赛的游记～ 去年初赛游记请移步：2019 CSP-S 初赛游记">
@@ -169,7 +169,7 @@
                 <span class="level-item has-text-grey">
                     
                     
-                    12 分钟 读完 (大约 1766 个字)
+                    12 分钟 读完 (大约 1787 个字)
                 </span>
                 
             </div>
@@ -209,14 +209,14 @@
 <li>A 最多就是一边12个点另一边12个点，总共144条边</li>
 <li>C 常识题，广搜用队列</li>
 <li>C 数学题，$3k+2 = 5p+3 = 7q+4 =n$，一通暴算可得 $n = 53$</li>
-<li>C 数学题，$a_{i,i+1} = 10i, i \in N^{<em>}$<br>求个和 $S_i = 10 \times (1+i) \times i \div 2$<br>令 $S_i \geq 1000$ 解得 $i \geq 14, i \in N^{</em>}$<br>所以应该爬到 $i+1 \geq 15$ 层</li>
+<li>C 数学题，$a_{i,i+1} = 10i, i \in N^{*}$，求个和 $S_i = 10 \times (1+i) \times i \div 2$，令 $S_i \geq 1000$ 解得 $i \geq 14, i \in N^{*}$，所以应该爬到 $i+1 \geq 15$ 层（我校好多人忘记 $+1$ 了）</li>
 <li>D 后缀表达式定义</li>
 <li>B 画个图易得 $16 \times 9 \div 2 = 72$</li>
-<li>D Dijkstra 时间复杂度 $O(N^2)$</li>
+<li>D $Dijkstra$ 时间复杂度 $O(N^2)$</li>
 <li>C 常识题，香农，信息合格考都会考</li>
 </ol>
 <p>正当我暗暗窃喜，接下来的阅读程序给我当头一棒TAT</p>
-<p>第一题就开始蒙了，再加上眼瞎没看到是 $&lt;n$</p>
+<p>第一题就傻眼了，再加上眼瞎没看到是 $&lt; n$，第一小问就开始错</p>
 <p>第二题看出来了是在找第k小（大？）的数，正好洛谷押中了，但！是！我把 $O(n)$ 记成了 $O(nlogn)$ 然后就悲剧了qwq</p>
 <p>第三题字符串太 TM 恐怖了，两页的代码看得脑壳疼，也没看懂在干啥，瞎蒙瞎猜了好多</p>
 <p>然后完善程序第一题还比较友好，都说了是贪心，按部就班做就是了，第一小问有点坑，我差点选了带除号的那个，后来看到 CD 选项突然反应过来 C++ 里两个整型之间的“/”是整除…（和向量平行的充要条件是 $x_1y_2 = x_2y_1$ 而不是 $\frac{x_1}{x_2} = \frac{y_1}{y_2}$ 类似，要把除变成乘）</p>
@@ -271,6 +271,13 @@
 
 <div class="card card-transparent">
     <div class="level post-navigation is-flex-wrap is-mobile">
+        
+        <div class="level-start">
+            <a class="level level-item has-link-grey  article-nav-prev" href="/2020 CSP-S 复赛游记/">
+                <i class="level-item fas fa-chevron-left"></i>
+                <span class="level-item">2020 CSP-S 复赛游记</span>
+            </a>
+        </div>
         
         
         <div class="level-end">
@@ -363,7 +370,7 @@ var dsqjs = new DisqusJS({
                         文章
                     </p>
                     <p class="title has-text-weight-normal">
-                        71
+                        72
                     </p>
                 </div>
             </div>
@@ -502,7 +509,7 @@ var dsqjs = new DisqusJS({
                 <span class="level-item">水</span>
             </span>
             <span class="level-end">
-                <span class="level-item tag">12</span>
+                <span class="level-item tag">13</span>
             </span>
         </a></li><li>
         <a class="level is-marginless" href="/categories/测评/">
@@ -532,6 +539,25 @@ var dsqjs = new DisqusJS({
         <h3 class="menu-label">
             最新文章
         </h3>
+        
+        <article class="media">
+            
+            <a href="/2020 CSP-S 复赛游记/" class="media-left">
+                <p class="image is-64x64">
+                    <img class="thumbnail" src="https://blog-img-1251828412.file.myqcloud.com/2019/11/03/noi.png" alt="2020 CSP-S 复赛游记">
+                </p>
+            </a>
+            
+            <div class="media-content">
+                <div class="content">
+                    <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2020-11-08T22:17:52.000Z">2020-11-08</time></div>
+                    <a href="/2020 CSP-S 复赛游记/" class="has-link-black-ter is-size-6">2020 CSP-S 复赛游记</a>
+                    <p class="is-size-7 is-uppercase">
+                        <a class="has-link-grey -link" href="/categories/水/">水</a>
+                    </p>
+                </div>
+            </div>
+        </article>
         
         <article class="media">
             
@@ -609,25 +635,6 @@ var dsqjs = new DisqusJS({
             </div>
         </article>
         
-        <article class="media">
-            
-            <a href="/题解 POJ2018 Best Cow Fences/" class="media-left">
-                <p class="image is-64x64">
-                    <img class="thumbnail" src="/images/thumbnail.svg" alt="【题解】POJ2018 Best Cow Fences">
-                </p>
-            </a>
-            
-            <div class="media-content">
-                <div class="content">
-                    <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2020-05-05T16:09:28.000Z">2020-05-05</time></div>
-                    <a href="/题解 POJ2018 Best Cow Fences/" class="has-link-black-ter is-size-6">【题解】POJ2018 Best Cow Fences</a>
-                    <p class="is-size-7 is-uppercase">
-                        <a class="has-link-grey -link" href="/categories/OI-笔记/">OI 笔记</a>
-                    </p>
-                </div>
-            </div>
-        </article>
-        
     </div>
 </div>
 
@@ -639,6 +646,17 @@ var dsqjs = new DisqusJS({
             归档
         </h3>
         <ul class="menu-list">
+        
+        <li>
+            <a class="level is-marginless" href="/archives/2020/11/">
+                <span class="level-start">
+                    <span class="level-item">十一月 2020</span>
+                </span>
+                <span class="level-end">
+                    <span class="level-item tag">1</span>
+                </span>
+            </a>
+        </li>
         
         <li>
             <a class="level is-marginless" href="/archives/2020/10/">
