@@ -3,7 +3,7 @@ date: 2017-12-26 10:08:00
 toc: true
 categories: 技术向
 tags: []
-thumbnail: https://gss1.bdstatic.com/-vo3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike60%2C5%2C5%2C60%2C20/sign=bf6d81464f90f60310bd9415587bd87e/b3b7d0a20cf431adfe004e4e4e36acaf2fdd98f2.jpg
+thumbnail: https://gss1.bdstatic.com/-vo3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike60%2C5%2C5%2C60%2C20/sign=bf6d81464f90f60310bd9415587bd87e/b3b7d0a20cf431adfe004e4e4e36acaf2fdd98f2.jpg!webp_1920w
 ---
 最近把Jenkins移到了新的服务器上，由于已经自带Apache Tomcat所以就使用War包的方式部署Jenkins，然而我一不小心手贱重启了Tomcat，于是这只该死的Tomcat就罢工了。
 

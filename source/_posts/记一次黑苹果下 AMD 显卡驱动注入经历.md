@@ -3,7 +3,7 @@ date: 2019-08-22 16:46:43
 toc: true
 categories: 技术向
 tags: []
-thumbnail: https://blog-img-1251828412.file.myqcloud.com/2019/08/22/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202019-08-22%20%E4%B8%8B%E5%8D%883.47.04.png
+thumbnail: https://blog-img-1251828412.image.myqcloud.com/2019/08/22/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202019-08-22%20%E4%B8%8B%E5%8D%883.47.04.png!webp_1920w
 ---
 ~~不要问我为什么刚用 Ubuntu 体验完了伪 macOS 却又格盘玩起了黑苹果～~~
 
@@ -37,7 +37,7 @@ thumbnail: https://blog-img-1251828412.file.myqcloud.com/2019/08/22/%E5%B1%8F%E5
 
 [Device Hunt](https://devicehunt.com/) 截图如下：
 
-![](https://blog-img-1251828412.file.myqcloud.com/2019/08/22/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202019-08-22%20%E4%B8%8B%E5%8D%883.29.12.png)
+![](https://blog-img-1251828412.image.myqcloud.com/2019/08/22/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202019-08-22%20%E4%B8%8B%E5%8D%883.29.12.png!webp_1920w)
 
 到这里都符合的话就可以继续看下去啦～
 
@@ -45,25 +45,25 @@ thumbnail: https://blog-img-1251828412.file.myqcloud.com/2019/08/22/%E5%B1%8F%E5
 
 ### 打开 「Clover Configurator」 ###
 
-![](https://blog-img-1251828412.file.myqcloud.com/2019/08/22/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202019-08-22%20%E4%B8%8B%E5%8D%883.34.06.png)
+![](https://blog-img-1251828412.image.myqcloud.com/2019/08/22/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202019-08-22%20%E4%B8%8B%E5%8D%883.34.06.png!webp_1920w)
 
 （如果你不知道这是啥说明本文并不适合你w）
 
 ### 挂载 EFI 分区 ###
 
-![](https://blog-img-1251828412.file.myqcloud.com/2019/08/22/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202019-08-22%20%E4%B8%8B%E5%8D%883.36.08.png)
+![](https://blog-img-1251828412.image.myqcloud.com/2019/08/22/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202019-08-22%20%E4%B8%8B%E5%8D%883.36.08.png!webp_1920w)
 
 挂载完成后用 「Clover Configurator」 打开该分区中的 config.plist 文件
 
 ### 设备设置 ###
 
-![](https://blog-img-1251828412.file.myqcloud.com/2019/08/22/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202019-08-22%20%E4%B8%8B%E5%8D%883.38.35.png)
+![](https://blog-img-1251828412.image.myqcloud.com/2019/08/22/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202019-08-22%20%E4%B8%8B%E5%8D%883.38.35.png!webp_1920w)
 
 在 仿冒 ID - ATI 中 输入 0x67B01002
 
 ### 显卡设置 ###
 
-![](https://blog-img-1251828412.file.myqcloud.com/2019/08/22/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202019-08-22%20%E4%B8%8B%E5%8D%883.40.34.png)
+![](https://blog-img-1251828412.image.myqcloud.com/2019/08/22/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202019-08-22%20%E4%B8%8B%E5%8D%883.40.34.png!webp_1920w)
 
 「FB 名称」设置为 Hawaii ，「显存」设置为 4096 ，「显卡端口」设置为 4 ，Display-cfg 设置为 067B0100 2
 
@@ -79,4 +79,4 @@ thumbnail: https://blog-img-1251828412.file.myqcloud.com/2019/08/22/%E5%B1%8F%E5
 
 Then, enjoy~
 
-![](https://blog-img-1251828412.file.myqcloud.com/2019/08/22/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202019-08-22%20%E4%B8%8B%E5%8D%883.45.45.png)
+![](https://blog-img-1251828412.image.myqcloud.com/2019/08/22/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202019-08-22%20%E4%B8%8B%E5%8D%883.45.45.png!webp_1920w)

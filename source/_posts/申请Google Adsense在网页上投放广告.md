@@ -3,7 +3,7 @@ date: 2018-03-07 11:11:00
 toc: true
 categories: 杂文
 tags: []
-thumbnail: https://blog-img-1251828412.file.myqcloud.com/2018/03/07/8481CCD2-A0B0-44D2-B289-510099BC8C19.jpeg
+thumbnail: https://blog-img-1251828412.image.myqcloud.com/2018/03/07/8481CCD2-A0B0-44D2-B289-510099BC8C19.jpeg
 ---
 其实我本来是不愿意这样做的～但是为了满足一点私心...嗯～没办法啦
 

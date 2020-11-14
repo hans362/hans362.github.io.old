@@ -3,13 +3,13 @@ date: 2019-02-18 16:40:00
 toc: true
 categories: 技术向
 tags: []
-thumbnail: https://blog-img-1251828412.file.myqcloud.com/2019/05/11/code-944499_1280.jpg
+thumbnail: https://blog-img-1251828412.image.myqcloud.com/2019/05/11/code-944499_1280.jpg!webp_1920w
 ---
 这段时间在开发[追番列表展示API][1]（人生中第一个PHP项目啊...），迫于没有系统地学习过PHP只是略知一二，在开发的过程中可以说是到处是坑，于是乎....在我努力地现学现卖的过程下，还是~~顺利~~地写完了这个程序
 
 至于运行的效率以及代码质量么....不管了....（自信
 
-![](https://blog-img-1251828412.file.myqcloud.com/2019/02/18/ybsbny.jpeg)
+![](https://blog-img-1251828412.image.myqcloud.com/2019/02/18/ybsbny.jpeg)
 
 那么针对踩过的坑就记录一下吧~（先说明一下 PHP 版本为7.1.26）
 

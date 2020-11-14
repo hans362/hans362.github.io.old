@@ -3,7 +3,7 @@ date: 2020-03-28 17:40:22
 toc: true
 categories: 技术向
 tags: []
-thumbnail: https://blog-img-1251828412.file.myqcloud.com/2020/03/28/15853848385002.jpg
+thumbnail: https://blog-img-1251828412.image.myqcloud.com/2020/03/28/15853848385002.jpg!webp_1920w
 ---
 > 本文使用 MWeb Markdown 编辑器写于 iPad Air 2，利用 iOS 端迄今为止最佳的可视化 Git 工具 Working Copy 提交至博客仓库，经 Travis CI 自动构建后自动发布至 GitHub Pages。
 
@@ -28,7 +28,7 @@ hexo-theme-hans362 //存放 Hexo 博客主题文件（基于 ICARUS 二次修改
 
 文件结构：
 
-![](https://blog-img-1251828412.file.myqcloud.com/2020/03/28/15853825237235.jpg)
+![](https://blog-img-1251828412.image.myqcloud.com/2020/03/28/15853825237235.jpg!webp_1920w)
 
 hans362.github.io //博客主仓库
 𠃊source //默认分支，存放 Markdown 文章和相关配置文件
@@ -36,9 +36,9 @@ hans362.github.io //博客主仓库
 
 文件结构：
 
-![](https://blog-img-1251828412.file.myqcloud.com/2020/03/28/15853825371753.jpg)
+![](https://blog-img-1251828412.image.myqcloud.com/2020/03/28/15853825371753.jpg!webp_1920w)
 
-![](https://blog-img-1251828412.file.myqcloud.com/2020/03/28/15853825532780.jpg)
+![](https://blog-img-1251828412.image.myqcloud.com/2020/03/28/15853825532780.jpg!webp_1920w)
 
 多分支的那个仓库 source 分支可以这样操作：
 
@@ -132,7 +132,7 @@ git push origin master:master --force --quiet
 
 正确做法就是把 `${GITHUB_TOKEN}` 原封不动的留在那，然后到 Travis CI 中设置环境变量，变量名为 GITHUB_TOKEN，变量值为你牢牢记住的那个 TOKEN，这样当代码运行至这一行时就可以从 Travis CI 中自动读取到你的 TOKEN 并完成替换。
 
-![](https://blog-img-1251828412.file.myqcloud.com/2020/03/28/15853840923226.jpg)
+![](https://blog-img-1251828412.image.myqcloud.com/2020/03/28/15853840923226.jpg!webp_1920w)
 
 至此，构建脚本就配置完成了。
 
@@ -140,7 +140,7 @@ git push origin master:master --force --quiet
 
 如果一切无误的话，你可以尝试推送一篇文章到主仓库的 source 分支，这会触发 Travis CI 按照你教TA的步骤完成后续的一系列操作，你只需要静静地喝杯茶，在一分钟后打开你的博客，就可以看到你写的新文章啦～
 
-![](https://blog-img-1251828412.file.myqcloud.com/2020/03/28/15853843896828.jpg)
+![](https://blog-img-1251828412.image.myqcloud.com/2020/03/28/15853843896828.jpg!webp_1920w)
 
 ## 参考链接
 

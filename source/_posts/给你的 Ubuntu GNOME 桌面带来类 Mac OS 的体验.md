@@ -19,7 +19,7 @@ thumbnail:
 
 > 好看是第一生产力。（雾
 
-![](https://blog-img-1251828412.file.myqcloud.com/2019/07/19/2019-07-19 16-27-27 的屏幕截图.png)
+![](https://blog-img-1251828412.image.myqcloud.com/2019/07/19/2019-07-19 16-27-27 的屏幕截图.png!webp_1920w)
 
 （上图即为最终效果图）
 
@@ -65,9 +65,9 @@ sudo apt install gnome-tweak-tool gnome-shell-extensions chrome-gnome-shell
 
 下载以下文件（主题作者： [vinceliuice](https://github.com/vinceliuice) ）
 
-1. [亮色主题](https://blog-img-1251828412.file.myqcloud.com/2019/07/24/Sierra-light-thin.tar.xz) / [暗色主题](https://blog-img-1251828412.file.myqcloud.com/2019/07/24/Sierra-dark-thin.tar.xz) （根据个人喜好二选一下载）
-2. [亮色图标](https://blog-img-1251828412.file.myqcloud.com/2019/07/24/MacOSX-icons.tar.xz) / [暗色图标](https://blog-img-1251828412.file.myqcloud.com/2019/07/24/MacOSX-dark-icons.tar.xz) （根据个人喜好选择，但是**注意亮色图标只需下载亮色图标文件，暗色图标则二者都需要下载**）
-3. [鼠标指针](https://blog-img-1251828412.file.myqcloud.com/2019/07/24/MacOSX-cursors.tar.xz)
+1. [亮色主题](https://blog-img-1251828412.image.myqcloud.com/2019/07/24/Sierra-light-thin.tar.xz) / [暗色主题](https://blog-img-1251828412.image.myqcloud.com/2019/07/24/Sierra-dark-thin.tar.xz) （根据个人喜好二选一下载）
+2. [亮色图标](https://blog-img-1251828412.image.myqcloud.com/2019/07/24/MacOSX-icons.tar.xz) / [暗色图标](https://blog-img-1251828412.image.myqcloud.com/2019/07/24/MacOSX-dark-icons.tar.xz) （根据个人喜好选择，但是**注意亮色图标只需下载亮色图标文件，暗色图标则二者都需要下载**）
+3. [鼠标指针](https://blog-img-1251828412.image.myqcloud.com/2019/07/24/MacOSX-cursors.tar.xz)
 
 以上链接为方便均从本博客图片服务器上下载，如果不放心也可自行前去作者 GitHub 下载。
 
@@ -98,17 +98,17 @@ sudo apt install firefox
 
    该插件需要额外配置，右键你的 Dock 点击 Dash to Dock 设置：
 
-   ![](https://blog-img-1251828412.file.myqcloud.com/2019/07/24/2019-07-24 16-28-56屏幕截图.png)
+   ![](https://blog-img-1251828412.image.myqcloud.com/2019/07/24/2019-07-24 16-28-56屏幕截图.png!webp_1920w)
 
    参照下图进行配置：
 
-   ![](https://blog-img-1251828412.file.myqcloud.com/2019/07/24/2019-07-24 16-30-04屏幕截图.png)
+   ![](https://blog-img-1251828412.image.myqcloud.com/2019/07/24/2019-07-24 16-30-04屏幕截图.png!webp_1920w)
    
-   ![](https://blog-img-1251828412.file.myqcloud.com/2019/07/24/2019-07-24 16-29-53屏幕截图.png)
+   ![](https://blog-img-1251828412.image.myqcloud.com/2019/07/24/2019-07-24 16-29-53屏幕截图.png!webp_1920w)
    
-   ![](https://blog-img-1251828412.file.myqcloud.com/2019/07/24/2019-07-24 16-29-41屏幕截图.png)
+   ![](https://blog-img-1251828412.image.myqcloud.com/2019/07/24/2019-07-24 16-29-41屏幕截图.png!webp_1920w)
    
-   ![](https://blog-img-1251828412.file.myqcloud.com/2019/07/24/2019-07-24 16-30-14屏幕截图.png)
+   ![](https://blog-img-1251828412.image.myqcloud.com/2019/07/24/2019-07-24 16-30-14屏幕截图.png!webp_1920w)
    
 5. Frippery Move Clock
 
@@ -130,15 +130,15 @@ sudo apt install firefox
 
 打开 **优化** 应用程序 (**Gnome Tweak Tool**) ：
 
-![](https://blog-img-1251828412.file.myqcloud.com/2019/07/24/2019-07-24 16-12-58 的屏幕截图.png)
+![](https://blog-img-1251828412.image.myqcloud.com/2019/07/24/2019-07-24 16-12-58 的屏幕截图.png!webp_1920w)
 
 按以下图片进行配置：
 
-![](https://blog-img-1251828412.file.myqcloud.com/2019/07/24/2019-07-24 16-39-40屏幕截图.png)
+![](https://blog-img-1251828412.image.myqcloud.com/2019/07/24/2019-07-24 16-39-40屏幕截图.png!webp_1920w)
 
-![](https://blog-img-1251828412.file.myqcloud.com/2019/07/24/2019-07-24 16-39-13屏幕截图.png)
+![](https://blog-img-1251828412.image.myqcloud.com/2019/07/24/2019-07-24 16-39-13屏幕截图.png!webp_1920w)
 
-![](https://blog-img-1251828412.file.myqcloud.com/2019/07/24/2019-07-24 16-38-57屏幕截图.png)
+![](https://blog-img-1251828412.image.myqcloud.com/2019/07/24/2019-07-24 16-38-57屏幕截图.png!webp_1920w)
 
 需要注意的是，苹方 字体需要自行下载并安装哦～
 

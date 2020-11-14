@@ -23,7 +23,7 @@ https://oj.hans362.cn/problem/5
 
 **需要注意的是，本题在2018年第一次印刷的《提高篇》书上题干表述有误，“子序列”应更改为“子串”才对**
 
-![](https://blog-img-1251828412.file.myqcloud.com/2020/05/05/15886597191286.jpg)
+![](https://blog-img-1251828412.image.myqcloud.com/2020/05/05/15886597191286.jpg!webp_1920w)
 
 ## 开工！
 

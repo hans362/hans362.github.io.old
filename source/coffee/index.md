@@ -23,7 +23,7 @@ via 爱发电：https://afdian.net/@hans362
 
 用支付宝扫描下方左侧二维码领一个线下购物红包......然后再扫描**下方右侧**（注意**不是**上面那个）商家收款码，输入领到红包的金额就会发现一分钱也不用付哟~当然我能收到钱
 
-<img src="https://blog-img-1251828412.file.myqcloud.com/2018/07/19/2430077680.jpg" width = "170" height = "250" alt="https://blog-img-1251828412.file.myqcloud.com/2018/07/19/2430077680.jpg" /><img src="https://blog-img-1251828412.file.myqcloud.com/2018/07/19/1809407122.png" width = "170" height = "250" alt="https://blog-img-1251828412.file.myqcloud.com/2018/07/19/1809407122.png" />
+<img src="https://blog-img-1251828412.image.myqcloud.com/2018/07/19/2430077680.jpg" width = "170" height = "250" alt="https://blog-img-1251828412.image.myqcloud.com/2018/07/19/2430077680.jpg" /><img src="https://blog-img-1251828412.image.myqcloud.com/2018/07/19/1809407122.png" width = "170" height = "250" alt="https://blog-img-1251828412.image.myqcloud.com/2018/07/19/1809407122.png" />
 
 虽然我也觉得这样似乎不太好....但还是贴在这了
 

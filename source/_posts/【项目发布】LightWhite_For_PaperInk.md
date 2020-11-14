@@ -46,7 +46,7 @@ GitHub Release版本：https://github.com/hans362/LightWhite_For_PaperInk/releas
     lang: zh
     url: "http://www.chole.io/blog"
     comment: username
-    logo: "-/images/avatar.png"
+    logo: "-/images/avatar.png!webp_1920w"
     # link: "{category}/{year}/{month}/{day}/{title}.html"
     # root: "/blog"
 
@@ -54,7 +54,7 @@ GitHub Release版本：https://github.com/hans362/LightWhite_For_PaperInk/releas
     me:
         name: "纸小墨"
         intro: "构建只为纯粹书写的博客"
-        avatar: "-/images/avatar.png"
+        avatar: "-/images/avatar.png!webp_1920w"
 
     build:
     # output: "public"

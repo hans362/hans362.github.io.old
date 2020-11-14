@@ -28,13 +28,13 @@ thumbnail:
 
 紧接着我想到去翻一翻Coding的提交历史，对几个历史版本进行逐行对比，最终我把目光锁定在了这里：
 
-![https://blog-img-1251828412.file.myqcloud.com/2018/03/09/9E55D822-DEAB-4066-9F58-DD15A8291299.jpeg][1]
+![https://blog-img-1251828412.image.myqcloud.com/2018/03/09/9E55D822-DEAB-4066-9F58-DD15A8291299.jpeg][1]
 
 咦？第一行中两个相同的<为什么会显示不同呢？由于代码是在Windows上面修改的，而很多奇奇怪怪的编码问题都发生在Windows上面，所以我的第一反应就是编码问题。
 
 因为写代码比较喜欢用Notepad++，就检查了一下Header.php的编码，发现竟然是带BOM格式的UTF8！
 
-![https://blog-img-1251828412.file.myqcloud.com/2018/03/09/4CA2B09C-ED99-4327-9AAC-846CFDD02A32.jpeg][2]
+![https://blog-img-1251828412.image.myqcloud.com/2018/03/09/4CA2B09C-ED99-4327-9AAC-846CFDD02A32.jpeg][2]
 
 那么什么是BOM呢？
 
@@ -54,5 +54,5 @@ UTF-8 BOM又叫UTF-8 签名，其实UTF-8 的BOM对UFT-8没有作用，是为了
 [2]https://www.cnblogs.com/wt645631686/p/6868826.html
 
 
-  [1]: https://blog-img-1251828412.file.myqcloud.com/2018/03/09/9E55D822-DEAB-4066-9F58-DD15A8291299.jpeg
-  [2]: https://blog-img-1251828412.file.myqcloud.com/2018/03/09/4CA2B09C-ED99-4327-9AAC-846CFDD02A32.jpeg
+  [1]: https://blog-img-1251828412.image.myqcloud.com/2018/03/09/9E55D822-DEAB-4066-9F58-DD15A8291299.jpeg
+  [2]: https://blog-img-1251828412.image.myqcloud.com/2018/03/09/4CA2B09C-ED99-4327-9AAC-846CFDD02A32.jpeg

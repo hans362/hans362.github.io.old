@@ -72,6 +72,6 @@ service jenkins start
 哦对了...差点忘了...我的Jenkins地址是[戳我戳我][3]，欢迎来玩^_^
 
 
-  [1]: https://blog.hans362.cn/usr/uploads/2017/12/3486196270.png
-  [2]: https://blog.hans362.cn/usr/uploads/2017/12/1666787342.png
+  [1]: https://blog.hans362.cn/usr/uploads/2017/12/3486196270.png!webp_1920w
+  [2]: https://blog.hans362.cn/usr/uploads/2017/12/1666787342.png!webp_1920w
   [3]: http://jenkins.milkcloud.ml/

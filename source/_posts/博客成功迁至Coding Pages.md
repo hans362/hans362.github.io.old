@@ -11,7 +11,7 @@ thumbnail:
 
 发张图Test一下：
 
-![2017111413191397.jpg][1]
+![2017111413191397.jpg!webp_1920w][1]
 
 不过迁移过程中还是踩了一些坑，Mark一下
 
@@ -36,4 +36,4 @@ $db = new Typecho_Db('Pdo_Mysql', 'typecho_');
 没想到动态Pages是有每日部署次数限制的！所以不能重复部署太多次，否则就只能等到第二天再修改了...
 
 
-  [1]: https://blog-img-1251828412.file.myqcloud.com/2018/02/11/881741996.jpg
+  [1]: https://blog-img-1251828412.image.myqcloud.com/2018/02/11/881741996.jpg!webp_1920w

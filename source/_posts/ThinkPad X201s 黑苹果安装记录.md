@@ -3,13 +3,13 @@ date: 2020-04-17 18:49:27
 toc: true
 categories: 技术向
 tags: []
-thumbnail: https://blog-img-1251828412.file.myqcloud.com/2020/04/19/15872677873187.jpg
+thumbnail: https://blog-img-1251828412.image.myqcloud.com/2020/04/19/15872677873187.jpg!webp_1920w
 ---
 继上次给这台 ThinkPad X201s 更换了 SSD 以后，想着既然都换了 SSD 怎么能不尝尝黑苹果的滋味呢w
 
 然而很不幸的是网络上几乎没有任何关于 ThinkPad X201s 黑苹果安装的有效信息，只有几篇关于 X201 和 X201i 的，于是在踩了特别特别多的坑以后决定还是在这里记录一下完整的安装过程吧～
 
-![](https://blog-img-1251828412.file.myqcloud.com/2020/04/19/15872678074060.jpg)
+![](https://blog-img-1251828412.image.myqcloud.com/2020/04/19/15872678074060.jpg!webp_1920w)
 
 <!--more-->
 
@@ -19,7 +19,7 @@ thumbnail: https://blog-img-1251828412.file.myqcloud.com/2020/04/19/158726778731
 
 即使是 ThinkPad X201s，也有下图中的一堆版本，我使用的这台型号是 5129A15，即下图中的第一个
 
-![](https://blog-img-1251828412.file.myqcloud.com/2020/04/17/15871187142331.jpg)
+![](https://blog-img-1251828412.image.myqcloud.com/2020/04/17/15871187142331.jpg!webp_1920w)
 
 当然，如果你的型号并非 5129A15 也不用太担心，毕竟它们都是 X201s 系列的，硬件差别应该来说不会太大，理论上同样可以成功
 
@@ -161,11 +161,11 @@ https://github.com/hans362/ThinkPad-X201s-Hackintosh/tree/master/System/Library/
 
 此时顶栏和 Dock 应该都是半透明的了，显卡可以正常工作，打开 LaunchPad 不会卡顿或花屏，播放视频也不会卡顿，黑苹果就基本完美啦～
 
-![](https://blog-img-1251828412.file.myqcloud.com/2020/04/18/15872089033718.png)
+![](https://blog-img-1251828412.image.myqcloud.com/2020/04/18/15872089033718.png!webp_1920w)
 
-![](https://blog-img-1251828412.file.myqcloud.com/2020/04/18/15872089032900.png)
+![](https://blog-img-1251828412.image.myqcloud.com/2020/04/18/15872089032900.png!webp_1920w)
 
-![](https://blog-img-1251828412.file.myqcloud.com/2020/04/18/15872089367163.png)
+![](https://blog-img-1251828412.image.myqcloud.com/2020/04/18/15872089367163.png!webp_1920w)
 
 ## 小建议
 
@@ -185,7 +185,7 @@ sudo trimforce enable
 
 期间输入密码，按 Y 回车，电脑会自动重启，再次进入系统后就会发现 TRIM 开启成功啦～
 
-![](https://blog-img-1251828412.file.myqcloud.com/2020/04/18/15872089220381.jpg)
+![](https://blog-img-1251828412.image.myqcloud.com/2020/04/18/15872089220381.jpg!webp_1920w)
 
 ### 来一次全盘备份
 

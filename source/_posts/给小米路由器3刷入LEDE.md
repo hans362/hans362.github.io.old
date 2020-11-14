@@ -3,7 +3,7 @@ date: 2018-08-22 02:00:00
 toc: true
 categories: 技术向
 tags: []
-thumbnail: https://blog-img-1251828412.file.myqcloud.com/2018/08/22/3280075319.png
+thumbnail: https://blog-img-1251828412.image.myqcloud.com/2018/08/22/3280075319.png!webp_1920w
 ---
 没错，继[给小米路由器3刷入Pandavan][1]之后我这个刷机狂魔又来啦~
 
@@ -79,5 +79,5 @@ SSH连接路由器，并执行以下命令：
 
 
   [1]: https://blog.hans362.cn/%E7%BB%99%E5%B0%8F%E7%B1%B3%E8%B7%AF%E7%94%B1%E5%99%A83%E5%88%B7%E5%85%A5Pandavan/
-  [2]: https://blog-img-1251828412.file.myqcloud.com/2018/08/22/1464015853.png
-  [3]: https://blog-img-1251828412.file.myqcloud.com/2018/08/22/3280075319.png
+  [2]: https://blog-img-1251828412.image.myqcloud.com/2018/08/22/1464015853.png!webp_1920w
+  [3]: https://blog-img-1251828412.image.myqcloud.com/2018/08/22/3280075319.png!webp_1920w

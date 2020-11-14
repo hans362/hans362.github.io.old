@@ -3,7 +3,7 @@ date: 2018-07-10 06:38:00
 toc: true
 categories: 水
 tags: []
-thumbnail: https://blog-img-1251828412.file.myqcloud.com/2018/07/10/3018976461.jpeg
+thumbnail: https://blog-img-1251828412.image.myqcloud.com/2018/07/10/3018976461.jpeg
 ---
 今天中午上完课刚回家就收到短信让我下楼去拿快递...我还在想最近好像没买东西啊～于是乎就收到了AWS的马克杯
 
@@ -22,6 +22,6 @@ thumbnail: https://blog-img-1251828412.file.myqcloud.com/2018/07/10/3018976461.j
 就是这样～
 
 
-  [1]: https://blog-img-1251828412.file.myqcloud.com/2018/07/10/3018976461.jpeg
-  [2]: https://blog-img-1251828412.file.myqcloud.com/2018/07/10/1724779098.jpeg
-  [3]: https://blog-img-1251828412.file.myqcloud.com/2018/07/10/2339774357.jpeg
+  [1]: https://blog-img-1251828412.image.myqcloud.com/2018/07/10/3018976461.jpeg
+  [2]: https://blog-img-1251828412.image.myqcloud.com/2018/07/10/1724779098.jpeg
+  [3]: https://blog-img-1251828412.image.myqcloud.com/2018/07/10/2339774357.jpeg

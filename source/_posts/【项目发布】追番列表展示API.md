@@ -3,7 +3,7 @@ date: 2019-02-18 15:26:00
 toc: true
 categories: 项目发布
 tags: []
-thumbnail: https://blog-img-1251828412.file.myqcloud.com/2019/05/11/preview.png
+thumbnail: https://blog-img-1251828412.image.myqcloud.com/2019/05/11/preview.png!webp_1920w
 ---
 **DEMO：**http://test.hans362.cn/get_bangumi_list.php?uid=66745436
 
@@ -39,7 +39,7 @@ Sorry, we are currently unable to provide an English version of this file. Maybe
 
 语言好像只能描述这么多了（嗯....我相信各位的理解能力~）那就上图吧~
 
-![PREVIEW](https://github.com/hans362/Bangumi-List-Display/raw/master/preview.png)
+![PREVIEW](https://github.com/hans362/Bangumi-List-Display/raw/master/preview.png!webp_1920w)
 
 ## 如何部署？
 
