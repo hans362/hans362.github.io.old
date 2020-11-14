@@ -14,22 +14,22 @@
 <meta property="og:site_name" content="Hans362 &#39;s Blog">
 <meta property="og:description" content="最近搭了个Jenkins，在一番艰难困苦的研究之后，终于成功的使用Jenkins编译了一个Maven项目Nukkit。虽然过程艰辛了点，但是从长远来看还是挺方便的，实现了自动检测GayHub上面的项目更新并且自动完成构建，岂不美哉？">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:image" content="https://blog.hans362.cn/usr/uploads/2017/12/1150874294.png">
-<meta property="og:image" content="https://blog.hans362.cn/usr/uploads/2017/12/4193414249.png">
-<meta property="og:image" content="https://blog.hans362.cn/usr/uploads/2017/12/1956709933.png">
-<meta property="og:image" content="https://blog.hans362.cn/usr/uploads/2017/12/1756374654.png">
-<meta property="og:image" content="https://blog.hans362.cn/usr/uploads/2017/12/2253135693.png">
-<meta property="og:image" content="https://blog.hans362.cn/usr/uploads/2017/12/122406515.png">
-<meta property="og:image" content="https://blog.hans362.cn/usr/uploads/2017/12/3680943815.png">
-<meta property="og:image" content="https://blog.hans362.cn/usr/uploads/2017/12/3128980480.png">
-<meta property="og:image" content="https://blog.hans362.cn/usr/uploads/2017/12/4176100376.png">
-<meta property="og:image" content="https://blog.hans362.cn/usr/uploads/2017/12/3897374868.png">
-<meta property="og:image" content="https://blog.hans362.cn/usr/uploads/2017/12/3611958073.png">
-<meta property="og:updated_time" content="2020-11-14T08:12:17.400Z">
+<meta property="og:image" content="https://blog.hans362.cn/usr/uploads/2017/12/1150874294.png!webp_1920w">
+<meta property="og:image" content="https://blog.hans362.cn/usr/uploads/2017/12/4193414249.png!webp_1920w">
+<meta property="og:image" content="https://blog.hans362.cn/usr/uploads/2017/12/1956709933.png!webp_1920w">
+<meta property="og:image" content="https://blog.hans362.cn/usr/uploads/2017/12/1756374654.png!webp_1920w">
+<meta property="og:image" content="https://blog.hans362.cn/usr/uploads/2017/12/2253135693.png!webp_1920w">
+<meta property="og:image" content="https://blog.hans362.cn/usr/uploads/2017/12/122406515.png!webp_1920w">
+<meta property="og:image" content="https://blog.hans362.cn/usr/uploads/2017/12/3680943815.png!webp_1920w">
+<meta property="og:image" content="https://blog.hans362.cn/usr/uploads/2017/12/3128980480.png!webp_1920w">
+<meta property="og:image" content="https://blog.hans362.cn/usr/uploads/2017/12/4176100376.png!webp_1920w">
+<meta property="og:image" content="https://blog.hans362.cn/usr/uploads/2017/12/3897374868.png!webp_1920w">
+<meta property="og:image" content="https://blog.hans362.cn/usr/uploads/2017/12/3611958073.png!webp_1920w">
+<meta property="og:updated_time" content="2020-11-14T11:37:41.097Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="使用Jenkins CI为Nukkit持续集成">
 <meta name="twitter:description" content="最近搭了个Jenkins，在一番艰难困苦的研究之后，终于成功的使用Jenkins编译了一个Maven项目Nukkit。虽然过程艰辛了点，但是从长远来看还是挺方便的，实现了自动检测GayHub上面的项目更新并且自动完成构建，岂不美哉？">
-<meta name="twitter:image" content="https://blog.hans362.cn/usr/uploads/2017/12/1150874294.png">
+<meta name="twitter:image" content="https://blog.hans362.cn/usr/uploads/2017/12/1150874294.png!webp_1920w">
 <meta name="twitter:creator" content="@Milk_362">
 
 
@@ -173,7 +173,7 @@
                 <span class="level-item has-text-grey">
                     
                     
-                    6 分钟 读完 (大约 924 个字)
+                    6 分钟 读完 (大约 946 个字)
                 </span>
                 
             </div>
@@ -193,24 +193,24 @@
 <p>官方提供的编译方法如下：<br><figure class="highlight armasm hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="hljs-symbol">git</span> <span class="hljs-keyword">submodule </span>update --init</span><br><span class="line"><span class="hljs-keyword">mvn </span>clean</span><br><span class="line"><span class="hljs-keyword">mvn </span>package</span><br></pre></td></tr></table></figure></p>
 <h2 id="构建环境配置"><a href="#构建环境配置" class="headerlink" title="构建环境配置"></a>构建环境配置</h2><p>首先Nukkit是一个Maven项目，因此Jenkins中要把Maven Intergration插件装好，便于新建Maven项目。同时安装Apache Maven，并配置环境变量。</p>
 <p>插件安装非常简单，在Jenkins系统设置-插件管理-可选插件里面搜索Maven Intergration就可以安装了</p>
-<p><img src="https://blog.hans362.cn/usr/uploads/2017/12/1150874294.png" alt="jenkins_nukkit_02.PNG"></p>
+<p><img src="https://blog.hans362.cn/usr/uploads/2017/12/1150874294.png!webp_1920w" alt="jenkins_nukkit_02.PNG"></p>
 <p>Maven的话我用的是Ubuntu，直接执行：</p>
 <figure class="highlight routeros hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">apt-<span class="hljs-builtin-name">get</span> install maven</span><br></pre></td></tr></table></figure>
 <p>安装完成之后输入mvn -version就会出现Maven路径，再到Jenkins中系统设置-全局工具配置填写Maven路径</p>
-<p><img src="https://blog.hans362.cn/usr/uploads/2017/12/4193414249.png" alt="jenkins_nukkit_03.PNG"></p>
+<p><img src="https://blog.hans362.cn/usr/uploads/2017/12/4193414249.png!webp_1920w" alt="jenkins_nukkit_03.PNG"></p>
 <p>此外，Git等一些常用的组件也要安装好，具体就不详述了，偷个小懒哈（跑</p>
 <h2 id="建立Maven项目"><a href="#建立Maven项目" class="headerlink" title="建立Maven项目"></a>建立Maven项目</h2><p>Jenkins中点击左侧的建立新的Item，名称随意，项目类型选择Maven（如果没有这个选项一定是你的Maven Intergration插件没有安装好，请检查上一部分操作是否正确）</p>
-<p><img src="https://blog.hans362.cn/usr/uploads/2017/12/1956709933.png" alt="jenkins_nukkit_04.PNG"></p>
+<p><img src="https://blog.hans362.cn/usr/uploads/2017/12/1956709933.png!webp_1920w" alt="jenkins_nukkit_04.PNG"></p>
 <p>接下来就是项目信息的配置填写了，这里不多说话，直接上图吧</p>
-<p><img src="https://blog.hans362.cn/usr/uploads/2017/12/1756374654.png" alt="jenkins_nukkit_05.PNG"><br><img src="https://blog.hans362.cn/usr/uploads/2017/12/2253135693.png" alt="jenkins_nukkit_06.PNG"><br><img src="https://blog.hans362.cn/usr/uploads/2017/12/122406515.png" alt="jenkins_nukkit_07.PNG"><br><img src="https://blog.hans362.cn/usr/uploads/2017/12/3680943815.png" alt="jenkins_nukkit_08.PNG"><br><img src="https://blog.hans362.cn/usr/uploads/2017/12/3128980480.png" alt="jenkins_nukkit_09.PNG"><br><img src="https://blog.hans362.cn/usr/uploads/2017/12/4176100376.png" alt="jenkins_nukkit_10.PNG"></p>
+<p><img src="https://blog.hans362.cn/usr/uploads/2017/12/1756374654.png!webp_1920w" alt="jenkins_nukkit_05.PNG"><br><img src="https://blog.hans362.cn/usr/uploads/2017/12/2253135693.png!webp_1920w" alt="jenkins_nukkit_06.PNG"><br><img src="https://blog.hans362.cn/usr/uploads/2017/12/122406515.png!webp_1920w" alt="jenkins_nukkit_07.PNG"><br><img src="https://blog.hans362.cn/usr/uploads/2017/12/3680943815.png!webp_1920w" alt="jenkins_nukkit_08.PNG"><br><img src="https://blog.hans362.cn/usr/uploads/2017/12/3128980480.png!webp_1920w" alt="jenkins_nukkit_09.PNG"><br><img src="https://blog.hans362.cn/usr/uploads/2017/12/4176100376.png!webp_1920w" alt="jenkins_nukkit_10.PNG"></p>
 <p>需要注意的是源码管理中的Credentials请填写你自己的GayHub账户（不填好像也没什么关系吧）</p>
 <h2 id="初次构建"><a href="#初次构建" class="headerlink" title="初次构建"></a>初次构建</h2><p>到这里为止就基本设置完啦～想想自己的Jenkins即将跑起第一个项目心里还是挺激动的！</p>
 <p>But…在控制台里一大片红色文字闪过后你得到了一个红色的小球（编译失败）</p>
-<p><img src="https://blog.hans362.cn/usr/uploads/2017/12/3897374868.png" alt="jenkins_nukkit_01.PNG"></p>
+<p><img src="https://blog.hans362.cn/usr/uploads/2017/12/3897374868.png!webp_1920w" alt="jenkins_nukkit_01.PNG"></p>
 <p>怎么会这样呢？</p>
 <p>我翻了好久的Issue终于发现了有人和我一样，是缺少对应的库文件，只需要把<br> <a href="https://github.com/Nukkit/Nukkit/raw/master/lib/leveldb.jar" target="_blank" rel="noopener">https://github.com/Nukkit/Nukkit/raw/master/lib/leveldb.jar</a> 丢进Maven的Lib文件夹里就可以啦</p>
 <p>紧接着再跑一次构建，终于得到了编译好的Nukkit.jar</p>
-<p><img src="https://blog.hans362.cn/usr/uploads/2017/12/3611958073.png" alt="jenkins_nukkit_11.PNG"></p>
+<p><img src="https://blog.hans362.cn/usr/uploads/2017/12/3611958073.png!webp_1920w" alt="jenkins_nukkit_11.PNG"></p>
 <p>到这里这篇文章就差不多了，只要Jenkins一直运行着，他就会默默帮你检测代码更新，跑代码，测试，构建JAR，听起来就很棒呢！</p>
 <p>感谢各位的阅读～如果有什么问题下方留言即可，我会尽力解答哒</p>
 
@@ -533,7 +533,7 @@ var dsqjs = new DisqusJS({
             
             <a href="/2020 CSP-S 复赛游记/" class="media-left">
                 <p class="image is-64x64">
-                    <img class="thumbnail" src="https://blog-img-1251828412.file.myqcloud.com/2019/11/03/noi.png" alt="2020 CSP-S 复赛游记">
+                    <img class="thumbnail" src="https://blog-img-1251828412.image.myqcloud.com/2019/11/03/noi.png!webp_1920w" alt="2020 CSP-S 复赛游记">
                 </p>
             </a>
             
@@ -552,7 +552,7 @@ var dsqjs = new DisqusJS({
             
             <a href="/2020 CSP-S 初赛游记/" class="media-left">
                 <p class="image is-64x64">
-                    <img class="thumbnail" src="https://blog-img-1251828412.file.myqcloud.com/2019/11/03/noi.png" alt="2020 CSP-S 初赛游记">
+                    <img class="thumbnail" src="https://blog-img-1251828412.image.myqcloud.com/2019/11/03/noi.png!webp_1920w" alt="2020 CSP-S 初赛游记">
                 </p>
             </a>
             
@@ -571,7 +571,7 @@ var dsqjs = new DisqusJS({
             
             <a href="/年轻人的第一台软路由 - NanoPi R2S 开箱/" class="media-left">
                 <p class="image is-64x64">
-                    <img class="thumbnail" src="https://blog-img-1251828412.file.myqcloud.com/2020/07/10/15943733485340.jpg" alt="年轻人的第一台软路由 - NanoPi R2S 开箱">
+                    <img class="thumbnail" src="https://blog-img-1251828412.image.myqcloud.com/2020/07/10/15943733485340.jpg!webp_1920w" alt="年轻人的第一台软路由 - NanoPi R2S 开箱">
                 </p>
             </a>
             
@@ -590,7 +590,7 @@ var dsqjs = new DisqusJS({
             
             <a href="/MoeLink - 奇怪的内网穿透服务增加啦/" class="media-left">
                 <p class="image is-64x64">
-                    <img class="thumbnail" src="https://blog-img-1251828412.file.myqcloud.com/2020/05/31/15909127179786.png" alt="MoeLink - 奇怪的内网穿透服务增加啦">
+                    <img class="thumbnail" src="https://blog-img-1251828412.image.myqcloud.com/2020/05/31/15909127179786.png!webp_1920w" alt="MoeLink - 奇怪的内网穿透服务增加啦">
                 </p>
             </a>
             

@@ -14,13 +14,13 @@
 <meta property="og:site_name" content="Hans362 &#39;s Blog">
 <meta property="og:description" content="没错，继给小米路由器3刷入Pandavan之后我这个刷机狂魔又来啦~ 这段时间翻了翻恩山无线论坛发现小米路由器3已经有非官方LEDE固件了呢！果断决定刷刷看… 预警：如果您准确按照本文的操作步骤操作，一般是不会出问题的，当然不排除刷坏的可能，变砖了赶快去买彩票，别来找我╮(￣▽￣””)╭ 预警²：本文使用的固件非官方固件，而是ptpt52为推广natcap而自行编译的固件，目前经我测试一切正常，若">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:image" content="https://blog-img-1251828412.file.myqcloud.com/2018/08/22/1464015853.png">
-<meta property="og:image" content="https://blog-img-1251828412.file.myqcloud.com/2018/08/22/3280075319.png">
-<meta property="og:updated_time" content="2020-11-14T08:12:17.400Z">
+<meta property="og:image" content="https://blog-img-1251828412.image.myqcloud.com/2018/08/22/1464015853.png!webp_1920w">
+<meta property="og:image" content="https://blog-img-1251828412.image.myqcloud.com/2018/08/22/3280075319.png!webp_1920w">
+<meta property="og:updated_time" content="2020-11-14T11:37:41.097Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="给小米路由器3刷入LEDE">
 <meta name="twitter:description" content="没错，继给小米路由器3刷入Pandavan之后我这个刷机狂魔又来啦~ 这段时间翻了翻恩山无线论坛发现小米路由器3已经有非官方LEDE固件了呢！果断决定刷刷看… 预警：如果您准确按照本文的操作步骤操作，一般是不会出问题的，当然不排除刷坏的可能，变砖了赶快去买彩票，别来找我╮(￣▽￣””)╭ 预警²：本文使用的固件非官方固件，而是ptpt52为推广natcap而自行编译的固件，目前经我测试一切正常，若">
-<meta name="twitter:image" content="https://blog-img-1251828412.file.myqcloud.com/2018/08/22/1464015853.png">
+<meta name="twitter:image" content="https://blog-img-1251828412.image.myqcloud.com/2018/08/22/1464015853.png!webp_1920w">
 <meta name="twitter:creator" content="@Milk_362">
 
 
@@ -152,7 +152,7 @@
     
     <div class="card-image">
         <span class="image is-7by1">
-            <img class="thumbnail" src="https://blog-img-1251828412.file.myqcloud.com/2018/08/22/3280075319.png" alt="给小米路由器3刷入LEDE">
+            <img class="thumbnail" src="https://blog-img-1251828412.image.myqcloud.com/2018/08/22/3280075319.png!webp_1920w" alt="给小米路由器3刷入LEDE">
         </span>
     </div>
     
@@ -170,7 +170,7 @@
                 <span class="level-item has-text-grey">
                     
                     
-                    5 分钟 读完 (大约 777 个字)
+                    5 分钟 读完 (大约 781 个字)
                 </span>
                 
             </div>
@@ -197,7 +197,7 @@
 </li>
 </ul>
 <h3 id="确保已准备好以下文件"><a href="#确保已准备好以下文件" class="headerlink" title="确保已准备好以下文件"></a>确保已准备好以下文件</h3><ul>
-<li>固件（请去 <a href="https://router-sh.ptpt52.com/rom/" target="_blank" rel="noopener">https://router-sh.ptpt52.com/rom/</a> 下载）<br>只需下载如下图两个即可：（rootfs0和kernel1）<br><img src="https://blog-img-1251828412.file.myqcloud.com/2018/08/22/1464015853.png" alt="lede1.PNG"></li>
+<li>固件（请去 <a href="https://router-sh.ptpt52.com/rom/" target="_blank" rel="noopener">https://router-sh.ptpt52.com/rom/</a> 下载）<br>只需下载如下图两个即可：（rootfs0和kernel1）<br><img src="https://blog-img-1251828412.image.myqcloud.com/2018/08/22/1464015853.png!webp_1920w" alt="lede1.PNG"></li>
 </ul>
 <h2 id="0x02-开启SSH"><a href="#0x02-开启SSH" class="headerlink" title="0x02 开启SSH"></a>0x02 开启SSH</h2><p>请参照 <a href="http://www.miui.com/thread-4529081-1-1.html" target="_blank" rel="noopener">http://www.miui.com/thread-4529081-1-1.html</a> 此处不再赘述</p>
 <h2 id="0x03-刷写固件"><a href="#0x03-刷写固件" class="headerlink" title="0x03 刷写固件"></a>0x03 刷写固件</h2><p>将下载好的两个固件通过SFTP上传到/tmp目录下，并改名为rootfs0.bin和kernel1.bin（方便后面操作）</p>
@@ -205,10 +205,10 @@
 <h2 id="0x04-连接网络"><a href="#0x04-连接网络" class="headerlink" title="0x04 连接网络"></a>0x04 连接网络</h2><p>可以使用网线直接连接，也可以连接WiFi（SSID：NATCAP_XXXX 密码：88888888）</p>
 <p>输入192.168.15.1进入管理界面（用户名：root 密码：admin）</p>
 <p>进入后记得修改密码，然后就慢慢折腾吧~ 玩坏了就在系统中重置即可</p>
-<p><img src="https://blog-img-1251828412.file.myqcloud.com/2018/08/22/3280075319.png" alt="lede2.PNG"></p>
+<p><img src="https://blog-img-1251828412.image.myqcloud.com/2018/08/22/3280075319.png!webp_1920w" alt="lede2.PNG"></p>
 <p>固件自带$$，酸酸乳需要另行安装，并且经测试酸酸乳不能ipk直接丢上去安装不然会报错，解决方案将在之后的文章中提到~</p>
 <p>顺便吐槽一下上海电信还是没给IPV6，He.net隧道好慢啊还是挂酸酸乳吧</p>
-<h2 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h2><p><a href="https://blog.hans362.cn/%E7%BB%99%E5%B0%8F%E7%B1%B3%E8%B7%AF%E7%94%B1%E5%99%A83%E5%88%B7%E5%85%A5Pandavan/" target="_blank" rel="noopener">1</a>《LEDE 全球首发，支持小米路由3（Xiaomi Mi Router R3）》<a href="http://www.right.com.cn/forum/thread-261964-1-1.html" target="_blank" rel="noopener">http://www.right.com.cn/forum/thread-261964-1-1.html</a><br><a href="https://blog-img-1251828412.file.myqcloud.com/2018/08/22/1464015853.png" target="_blank" rel="noopener">2</a>《OpenWrt/LEDE最新固件 适配大量硬件》<a href="http://www.right.com.cn/forum/forum.php?mod=viewthread&amp;tid=212965" target="_blank" rel="noopener">http://www.right.com.cn/forum/forum.php?mod=viewthread&amp;tid=212965</a><br><a href="https://blog-img-1251828412.file.myqcloud.com/2018/08/22/3280075319.png" target="_blank" rel="noopener">3</a>《[经验技巧] 小米路由器3 开启SSH最简单的方法》<a href="http://www.miui.com/thread-4529081-1-1.html" target="_blank" rel="noopener">http://www.miui.com/thread-4529081-1-1.html</a></p>
+<h2 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h2><p><a href="https://blog.hans362.cn/%E7%BB%99%E5%B0%8F%E7%B1%B3%E8%B7%AF%E7%94%B1%E5%99%A83%E5%88%B7%E5%85%A5Pandavan/" target="_blank" rel="noopener">1</a>《LEDE 全球首发，支持小米路由3（Xiaomi Mi Router R3）》<a href="http://www.right.com.cn/forum/thread-261964-1-1.html" target="_blank" rel="noopener">http://www.right.com.cn/forum/thread-261964-1-1.html</a><br><a href="https://blog-img-1251828412.image.myqcloud.com/2018/08/22/1464015853.png!webp_1920w" target="_blank" rel="noopener">2</a>《OpenWrt/LEDE最新固件 适配大量硬件》<a href="http://www.right.com.cn/forum/forum.php?mod=viewthread&amp;tid=212965" target="_blank" rel="noopener">http://www.right.com.cn/forum/forum.php?mod=viewthread&amp;tid=212965</a><br><a href="https://blog-img-1251828412.image.myqcloud.com/2018/08/22/3280075319.png!webp_1920w" target="_blank" rel="noopener">3</a>《[经验技巧] 小米路由器3 开启SSH最简单的方法》<a href="http://www.miui.com/thread-4529081-1-1.html" target="_blank" rel="noopener">http://www.miui.com/thread-4529081-1-1.html</a></p>
 
         </div>
         
@@ -541,7 +541,7 @@ var dsqjs = new DisqusJS({
             
             <a href="/2020 CSP-S 复赛游记/" class="media-left">
                 <p class="image is-64x64">
-                    <img class="thumbnail" src="https://blog-img-1251828412.file.myqcloud.com/2019/11/03/noi.png" alt="2020 CSP-S 复赛游记">
+                    <img class="thumbnail" src="https://blog-img-1251828412.image.myqcloud.com/2019/11/03/noi.png!webp_1920w" alt="2020 CSP-S 复赛游记">
                 </p>
             </a>
             
@@ -560,7 +560,7 @@ var dsqjs = new DisqusJS({
             
             <a href="/2020 CSP-S 初赛游记/" class="media-left">
                 <p class="image is-64x64">
-                    <img class="thumbnail" src="https://blog-img-1251828412.file.myqcloud.com/2019/11/03/noi.png" alt="2020 CSP-S 初赛游记">
+                    <img class="thumbnail" src="https://blog-img-1251828412.image.myqcloud.com/2019/11/03/noi.png!webp_1920w" alt="2020 CSP-S 初赛游记">
                 </p>
             </a>
             
@@ -579,7 +579,7 @@ var dsqjs = new DisqusJS({
             
             <a href="/年轻人的第一台软路由 - NanoPi R2S 开箱/" class="media-left">
                 <p class="image is-64x64">
-                    <img class="thumbnail" src="https://blog-img-1251828412.file.myqcloud.com/2020/07/10/15943733485340.jpg" alt="年轻人的第一台软路由 - NanoPi R2S 开箱">
+                    <img class="thumbnail" src="https://blog-img-1251828412.image.myqcloud.com/2020/07/10/15943733485340.jpg!webp_1920w" alt="年轻人的第一台软路由 - NanoPi R2S 开箱">
                 </p>
             </a>
             
@@ -598,7 +598,7 @@ var dsqjs = new DisqusJS({
             
             <a href="/MoeLink - 奇怪的内网穿透服务增加啦/" class="media-left">
                 <p class="image is-64x64">
-                    <img class="thumbnail" src="https://blog-img-1251828412.file.myqcloud.com/2020/05/31/15909127179786.png" alt="MoeLink - 奇怪的内网穿透服务增加啦">
+                    <img class="thumbnail" src="https://blog-img-1251828412.image.myqcloud.com/2020/05/31/15909127179786.png!webp_1920w" alt="MoeLink - 奇怪的内网穿透服务增加啦">
                 </p>
             </a>
             

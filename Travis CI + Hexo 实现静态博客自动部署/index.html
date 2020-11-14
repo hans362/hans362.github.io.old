@@ -14,16 +14,16 @@
 <meta property="og:site_name" content="Hans362 &#39;s Blog">
 <meta property="og:description" content="本文使用 MWeb Markdown 编辑器写于 iPad Air 2，利用 iOS 端迄今为止最佳的可视化 Git 工具 Working Copy 提交至博客仓库，经 Travis CI 自动构建后自动发布至 GitHub Pages。  以上是我最理想的写博客的流程，而今天我终于实现啦！😆 众所周知，静态博客的一大特点就是没有管理后台，因此常规的操作流程一般是写文章-丢进_posts文件夹">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:image" content="https://blog-img-1251828412.file.myqcloud.com/2020/03/28/15853825237235.jpg">
-<meta property="og:image" content="https://blog-img-1251828412.file.myqcloud.com/2020/03/28/15853825371753.jpg">
-<meta property="og:image" content="https://blog-img-1251828412.file.myqcloud.com/2020/03/28/15853825532780.jpg">
-<meta property="og:image" content="https://blog-img-1251828412.file.myqcloud.com/2020/03/28/15853840923226.jpg">
-<meta property="og:image" content="https://blog-img-1251828412.file.myqcloud.com/2020/03/28/15853843896828.jpg">
-<meta property="og:updated_time" content="2020-11-14T08:12:17.400Z">
+<meta property="og:image" content="https://blog-img-1251828412.image.myqcloud.com/2020/03/28/15853825237235.jpg!webp_1920w">
+<meta property="og:image" content="https://blog-img-1251828412.image.myqcloud.com/2020/03/28/15853825371753.jpg!webp_1920w">
+<meta property="og:image" content="https://blog-img-1251828412.image.myqcloud.com/2020/03/28/15853825532780.jpg!webp_1920w">
+<meta property="og:image" content="https://blog-img-1251828412.image.myqcloud.com/2020/03/28/15853840923226.jpg!webp_1920w">
+<meta property="og:image" content="https://blog-img-1251828412.image.myqcloud.com/2020/03/28/15853843896828.jpg!webp_1920w">
+<meta property="og:updated_time" content="2020-11-14T11:37:41.097Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Travis CI + Hexo 实现静态博客自动部署">
 <meta name="twitter:description" content="本文使用 MWeb Markdown 编辑器写于 iPad Air 2，利用 iOS 端迄今为止最佳的可视化 Git 工具 Working Copy 提交至博客仓库，经 Travis CI 自动构建后自动发布至 GitHub Pages。  以上是我最理想的写博客的流程，而今天我终于实现啦！😆 众所周知，静态博客的一大特点就是没有管理后台，因此常规的操作流程一般是写文章-丢进_posts文件夹">
-<meta name="twitter:image" content="https://blog-img-1251828412.file.myqcloud.com/2020/03/28/15853825237235.jpg">
+<meta name="twitter:image" content="https://blog-img-1251828412.image.myqcloud.com/2020/03/28/15853825237235.jpg!webp_1920w">
 <meta name="twitter:creator" content="@Milk_362">
 
 
@@ -155,7 +155,7 @@
     
     <div class="card-image">
         <span class="image is-7by1">
-            <img class="thumbnail" src="https://blog-img-1251828412.file.myqcloud.com/2020/03/28/15853848385002.jpg" alt="Travis CI + Hexo 实现静态博客自动部署">
+            <img class="thumbnail" src="https://blog-img-1251828412.image.myqcloud.com/2020/03/28/15853848385002.jpg!webp_1920w" alt="Travis CI + Hexo 实现静态博客自动部署">
         </span>
     </div>
     
@@ -173,7 +173,7 @@
                 <span class="level-item has-text-grey">
                     
                     
-                    9 分钟 读完 (大约 1362 个字)
+                    9 分钟 读完 (大约 1372 个字)
                 </span>
                 
             </div>
@@ -196,11 +196,11 @@
 <h2 id="方案设计"><a href="#方案设计" class="headerlink" title="方案设计"></a>方案设计</h2><p>首先需要两个 GitHub 公共仓库：</p>
 <p>hexo-theme-hans362 //存放 Hexo 博客主题文件（基于 ICARUS 二次修改）<br>𠃊master //默认分支</p>
 <p>文件结构：</p>
-<p><img src="https://blog-img-1251828412.file.myqcloud.com/2020/03/28/15853825237235.jpg" alt></p>
+<p><img src="https://blog-img-1251828412.image.myqcloud.com/2020/03/28/15853825237235.jpg!webp_1920w" alt></p>
 <p>hans362.github.io //博客主仓库<br>𠃊source //默认分支，存放 Markdown 文章和相关配置文件<br>𠃊master //GitHub Pages 分支，存放生成的静态文件</p>
 <p>文件结构：</p>
-<p><img src="https://blog-img-1251828412.file.myqcloud.com/2020/03/28/15853825371753.jpg" alt></p>
-<p><img src="https://blog-img-1251828412.file.myqcloud.com/2020/03/28/15853825532780.jpg" alt></p>
+<p><img src="https://blog-img-1251828412.image.myqcloud.com/2020/03/28/15853825371753.jpg!webp_1920w" alt></p>
+<p><img src="https://blog-img-1251828412.image.myqcloud.com/2020/03/28/15853825532780.jpg!webp_1920w" alt></p>
 <p>多分支的那个仓库 source 分支可以这样操作：</p>
 <figure class="highlight vim hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">git init</span><br><span class="line">git remote <span class="hljs-built_in">add</span> origin git@github.<span class="hljs-keyword">com</span>:hans362/hans362.github.io.git</span><br><span class="line">git checkout --orphan <span class="hljs-keyword">source</span></span><br><span class="line">git <span class="hljs-built_in">add</span> .</span><br><span class="line">git commit -<span class="hljs-keyword">m</span> <span class="hljs-string">"First commit"</span></span><br><span class="line">git push origin <span class="hljs-keyword">source</span>:<span class="hljs-keyword">source</span></span><br></pre></td></tr></table></figure>
 <p>iPad 上写文章时只需要在 Working Copy 里 clone 主仓库下的 source 分支，写好文章后 commit + push 就完事啦～</p>
@@ -212,10 +212,10 @@
 <figure class="highlight bash hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="hljs-meta">#!/bin/bash</span></span><br><span class="line"><span class="hljs-built_in">set</span> -ev</span><br><span class="line"><span class="hljs-comment"># 设置时区</span></span><br><span class="line"><span class="hljs-built_in">export</span> TZ=<span class="hljs-string">'Asia/Shanghai'</span></span><br><span class="line"></span><br><span class="line"><span class="hljs-comment"># 先 clone 避免 force commit</span></span><br><span class="line">git <span class="hljs-built_in">clone</span> -b master <span class="hljs-variable">$&#123;GH_REF&#125;</span> .deploy_git</span><br><span class="line"></span><br><span class="line"><span class="hljs-built_in">cd</span> .deploy_git</span><br><span class="line">git checkout master</span><br><span class="line">mv .git/ ../public/</span><br><span class="line"><span class="hljs-built_in">cd</span> ../public</span><br><span class="line"></span><br><span class="line">git add .</span><br><span class="line">git commit -m <span class="hljs-string">"Site updated: `date +"</span>%Y-%m-%d %H:%M:%S<span class="hljs-string">"`"</span></span><br><span class="line"><span class="hljs-comment"># 推送到主仓库的 master 分支</span></span><br><span class="line">git push origin master:master --force --quiet</span><br></pre></td></tr></table></figure>
 <p>然后细心的你可能发现了上面配置文件中有两个 <code>${GITHUB_TOKEN}</code>，这里应该填写你的 GitHub Personal Access Token，不知道这是啥的自行解决，总之需要生成一个并且牢牢记住。当然我相信你不会笨到直接把脚本里的 <code>${GITHUB_TOKEN}</code> 替换成你的 TOKEN，因为存放配置文件的仓库是向世界公开的，这样做无疑于引狼入室。</p>
 <p>正确做法就是把 <code>${GITHUB_TOKEN}</code> 原封不动的留在那，然后到 Travis CI 中设置环境变量，变量名为 GITHUB_TOKEN，变量值为你牢牢记住的那个 TOKEN，这样当代码运行至这一行时就可以从 Travis CI 中自动读取到你的 TOKEN 并完成替换。</p>
-<p><img src="https://blog-img-1251828412.file.myqcloud.com/2020/03/28/15853840923226.jpg" alt></p>
+<p><img src="https://blog-img-1251828412.image.myqcloud.com/2020/03/28/15853840923226.jpg!webp_1920w" alt></p>
 <p>至此，构建脚本就配置完成了。</p>
 <h2 id="Now-enjoy"><a href="#Now-enjoy" class="headerlink" title="Now, enjoy~"></a>Now, enjoy~</h2><p>如果一切无误的话，你可以尝试推送一篇文章到主仓库的 source 分支，这会触发 Travis CI 按照你教TA的步骤完成后续的一系列操作，你只需要静静地喝杯茶，在一分钟后打开你的博客，就可以看到你写的新文章啦～</p>
-<p><img src="https://blog-img-1251828412.file.myqcloud.com/2020/03/28/15853843896828.jpg" alt></p>
+<p><img src="https://blog-img-1251828412.image.myqcloud.com/2020/03/28/15853843896828.jpg!webp_1920w" alt></p>
 <h2 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h2><p>非常感谢以下文章作者～</p>
 <ol>
 <li><a href="https://printempw.github.io/deploy-hexo-blog-automatically-with-travis-ci/" target="_blank" rel="noopener">使用 Travis CI 自动部署 Hexo 博客</a></li>
@@ -545,7 +545,7 @@ var dsqjs = new DisqusJS({
             
             <a href="/2020 CSP-S 复赛游记/" class="media-left">
                 <p class="image is-64x64">
-                    <img class="thumbnail" src="https://blog-img-1251828412.file.myqcloud.com/2019/11/03/noi.png" alt="2020 CSP-S 复赛游记">
+                    <img class="thumbnail" src="https://blog-img-1251828412.image.myqcloud.com/2019/11/03/noi.png!webp_1920w" alt="2020 CSP-S 复赛游记">
                 </p>
             </a>
             
@@ -564,7 +564,7 @@ var dsqjs = new DisqusJS({
             
             <a href="/2020 CSP-S 初赛游记/" class="media-left">
                 <p class="image is-64x64">
-                    <img class="thumbnail" src="https://blog-img-1251828412.file.myqcloud.com/2019/11/03/noi.png" alt="2020 CSP-S 初赛游记">
+                    <img class="thumbnail" src="https://blog-img-1251828412.image.myqcloud.com/2019/11/03/noi.png!webp_1920w" alt="2020 CSP-S 初赛游记">
                 </p>
             </a>
             
@@ -583,7 +583,7 @@ var dsqjs = new DisqusJS({
             
             <a href="/年轻人的第一台软路由 - NanoPi R2S 开箱/" class="media-left">
                 <p class="image is-64x64">
-                    <img class="thumbnail" src="https://blog-img-1251828412.file.myqcloud.com/2020/07/10/15943733485340.jpg" alt="年轻人的第一台软路由 - NanoPi R2S 开箱">
+                    <img class="thumbnail" src="https://blog-img-1251828412.image.myqcloud.com/2020/07/10/15943733485340.jpg!webp_1920w" alt="年轻人的第一台软路由 - NanoPi R2S 开箱">
                 </p>
             </a>
             
@@ -602,7 +602,7 @@ var dsqjs = new DisqusJS({
             
             <a href="/MoeLink - 奇怪的内网穿透服务增加啦/" class="media-left">
                 <p class="image is-64x64">
-                    <img class="thumbnail" src="https://blog-img-1251828412.file.myqcloud.com/2020/05/31/15909127179786.png" alt="MoeLink - 奇怪的内网穿透服务增加啦">
+                    <img class="thumbnail" src="https://blog-img-1251828412.image.myqcloud.com/2020/05/31/15909127179786.png!webp_1920w" alt="MoeLink - 奇怪的内网穿透服务增加啦">
                 </p>
             </a>
             
