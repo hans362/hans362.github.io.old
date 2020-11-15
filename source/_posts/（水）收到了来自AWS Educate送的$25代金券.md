@@ -15,7 +15,7 @@ thumbnail:
 
 嗯...这次买个LightSail玩玩...干什么好捏？后面会写篇测评的，大家敬请期待
 
-![9041E006-E098-4471-916F-E602CC44FC0F.jpeg][1]
+![9041E006-E098-4471-916F-E602CC44FC0F.jpeg!webp_1920w][1]
 
 
-  [1]: https://blog.hans362.cn/usr/uploads/2017/12/1745548141.jpeg
+  [1]: https://blog.hans362.cn/usr/uploads/2017/12/1745548141.jpeg!webp_1920w

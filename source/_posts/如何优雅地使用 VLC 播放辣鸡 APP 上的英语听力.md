@@ -3,7 +3,7 @@ date: 2019-01-30 18:09:00
 toc: true
 categories: 技术向
 tags: []
-thumbnail: https://blog-img-1251828412.image.myqcloud.com/2019/01/30/Photo%20Jan%2030,%2016%2053%2020.jpeg
+thumbnail: https://blog-img-1251828412.image.myqcloud.com/2019/01/30/Photo%20Jan%2030,%2016%2053%2020.jpeg!webp_1920w
 ---
 ~~很久都没有写过这种文章了辣么就来水一篇吧~~
 
@@ -15,13 +15,13 @@ thumbnail: https://blog-img-1251828412.image.myqcloud.com/2019/01/30/Photo%20Jan
 
 然而今年的这厚厚的一沓英语模拟卷合订本和往年不同，竟然没有给听力光盘！（强烈谴责该出版社卷子卖得这么贵还省光盘钱）直到我读到第一页的一行小字和一个二维码：
 
-![](https://blog-img-1251828412.image.myqcloud.com/2019/01/30/Photo%20Jan%2030,%2017%2034%2047.jpeg)
+![](https://blog-img-1251828412.image.myqcloud.com/2019/01/30/Photo%20Jan%2030,%2017%2034%2047.jpeg!webp_1920w)
 
 woc你当我看不出来你这个出版社和这个二维码指向的 APP 之间有着某种 PY 交易么？！
 
 好吧既然这样那么就只好勉为其难地下载这个 APP 啦
 
-![](https://blog-img-1251828412.image.myqcloud.com/2019/01/30/Photo%20Jan%2030,%2017%2034%2039.jpeg)
+![](https://blog-img-1251828412.image.myqcloud.com/2019/01/30/Photo%20Jan%2030,%2017%2034%2039.jpeg!webp_1920w)
 
 一点开果然是一股浓浓的国产 APP 风格，一上来就一个弹窗“快来登录账号吧！没有账号？注册一个”，然后又是果然不出所料要求填写**手机号**、**真实姓名**、**就读学校**等一系列个人信息
 
@@ -49,29 +49,29 @@ woc你当我看不出来你这个出版社和这个二维码指向的 APP 之间
 
 于是乎用到了 Thor 这个 iOS 端抓包工具，个人感觉挺好用的，虽然没有 BurpSuite 或者是 Fiddler 那么专业就是了
 
-![](https://blog-img-1251828412.image.myqcloud.com/2019/01/30/Photo%20Jan%2030,%2017%2034%2057.jpeg)
+![](https://blog-img-1251828412.image.myqcloud.com/2019/01/30/Photo%20Jan%2030,%2017%2034%2057.jpeg!webp_1920w)
 
 然后就是打开、创建 VPN 、安装证书用于 Https 抓包等一系列基本操作
 
-![](https://blog-img-1251828412.image.myqcloud.com/2019/01/30/Photo%20Jan%2030,%2017%2035%2009.jpeg)
+![](https://blog-img-1251828412.image.myqcloud.com/2019/01/30/Photo%20Jan%2030,%2017%2035%2009.jpeg!webp_1920w)
 
 这时候咱把窗口切回这个辣鸡 APP ，开始播放，再切回 Thor
 
-![](https://blog-img-1251828412.image.myqcloud.com/2019/01/30/Photo%20Jan%2030,%2017%2035%2015.jpeg)
+![](https://blog-img-1251828412.image.myqcloud.com/2019/01/30/Photo%20Jan%2030,%2017%2035%2015.jpeg!webp_1920w)
 
 好极了～抓包结果中迅速出现了一个音频文件，且一直排在最顶端，应该就是它啦！
 
-![](https://blog-img-1251828412.image.myqcloud.com/2019/01/30/Photo%20Jan%2030,%2017%2035%2025.jpeg)
+![](https://blog-img-1251828412.image.myqcloud.com/2019/01/30/Photo%20Jan%2030,%2017%2035%2025.jpeg!webp_1920w)
 
 等等，这文件名看上去，怎么那么奇怪啊....不管了，先把链接复制下来丢 VLC 里看看
 
-![](https://blog-img-1251828412.image.myqcloud.com/2019/01/30/Photo%20Jan%2030,%2017%2035%2033.jpeg)
+![](https://blog-img-1251828412.image.myqcloud.com/2019/01/30/Photo%20Jan%2030,%2017%2035%2033.jpeg!webp_1920w)
 
-![](https://blog-img-1251828412.image.myqcloud.com/2019/01/30/Photo%20Jan%2030,%2017%2035%2039.jpeg)
+![](https://blog-img-1251828412.image.myqcloud.com/2019/01/30/Photo%20Jan%2030,%2017%2035%2039.jpeg!webp_1920w)
 
 果然成功播放～还可以下载离线播放、n倍速播放（因为个人觉得听力读得太慢了喜欢1.5倍速播放）
 
-![](https://blog-img-1251828412.image.myqcloud.com/2019/01/30/Photo%20Jan%2030,%2017%2035%2044.jpeg)
+![](https://blog-img-1251828412.image.myqcloud.com/2019/01/30/Photo%20Jan%2030,%2017%2035%2044.jpeg!webp_1920w)
 
 ## 总结 ##
 

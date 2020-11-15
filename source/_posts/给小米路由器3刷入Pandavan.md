@@ -3,7 +3,7 @@ date: 2018-04-19 10:32:00
 toc: true
 categories: 技术向
 tags: []
-thumbnail: https://blog-img-1251828412.image.myqcloud.com/2018/04/21/A0244F8D-4340-4C54-8AE9-18E938A7EA04.jpeg
+thumbnail: https://blog-img-1251828412.image.myqcloud.com/2018/04/21/A0244F8D-4340-4C54-8AE9-18E938A7EA04.jpeg!webp_1920w
 ---
 一年前入手了小米路由器3，当初因为听说小米路由器可以刷各种固件（OpenWRT，LEDE，PandoraBox之类的），而且自己也挺喜欢小米的，所以立刻就买了。
 
@@ -57,7 +57,7 @@ thumbnail: https://blog-img-1251828412.image.myqcloud.com/2018/04/21/A0244F8D-43
 
 最后启动虚拟机，正常的话应该会显示如下界面：
 
-![https://blog-img-1251828412.image.myqcloud.com/2018/04/21/9E33C242-F595-477E-8CC2-217B3C2072BC.jpeg][1]
+![https://blog-img-1251828412.image.myqcloud.com/2018/04/21/9E33C242-F595-477E-8CC2-217B3C2072BC.jpeg!webp_1920w][1]
 
 ## 0x03 开始刷固件 ##
 
@@ -67,7 +67,7 @@ thumbnail: https://blog-img-1251828412.image.myqcloud.com/2018/04/21/A0244F8D-43
    第一步设置管理后台IP，这个一般就是默认的192.168.31.1，如果你改过请自行输入
    ![https://blog-img-1251828412.image.myqcloud.com/2018/04/21/Photo%20Apr%2030,%2014%2047%2024.png!webp_1920w][2]
    第二步输入之前降级后设置的管理密码
-   ![https://blog-img-1251828412.image.myqcloud.com/2018/04/21/Photo%20Apr%2030,%2014%2047%2036.jpeg][3]
+   ![https://blog-img-1251828412.image.myqcloud.com/2018/04/21/Photo%20Apr%2030,%2014%2047%2036.jpeg!webp_1920w][3]
    最后输入y确认，等它出现绿色成功提示，按任意键返回主界面即可
 
 ### 刷入固件（风险最多百分之五其实应该也没什么问题的） ###
@@ -75,7 +75,7 @@ thumbnail: https://blog-img-1251828412.image.myqcloud.com/2018/04/21/A0244F8D-43
    在主界面输入4，它会问你是否要备份，为了保险一定要输入y哦～
    然后这里要等上很久的，可能半天没有动静让你误以为卡死了，其实不是的哟，一定要耐心等
    备份完会自动开始刷写固件，不出意外就会看到下面的提示：
-   ![https://blog-img-1251828412.image.myqcloud.com/2018/04/21/Photo%20Apr%2030,%2014%2056%2017.jpeg][4]
+   ![https://blog-img-1251828412.image.myqcloud.com/2018/04/21/Photo%20Apr%2030,%2014%2056%2017.jpeg!webp_1920w][4]
 
 ### 关闭虚拟机，撤销网络桥接 ###
 
@@ -97,7 +97,7 @@ thumbnail: https://blog-img-1251828412.image.myqcloud.com/2018/04/21/A0244F8D-43
 特别感谢所有尝试过刷这个固件的朋友们，也感谢在论坛上分享刷机步骤的朋友们，这篇文章也搬运了参考链接[1]中的小部分内容（大部分是我自己码的），如有不妥请务必联系我
 
 
-  [1]: https://blog-img-1251828412.image.myqcloud.com/2018/04/21/9E33C242-F595-477E-8CC2-217B3C2072BC.jpeg
+  [1]: https://blog-img-1251828412.image.myqcloud.com/2018/04/21/9E33C242-F595-477E-8CC2-217B3C2072BC.jpeg!webp_1920w
   [2]: https://blog-img-1251828412.image.myqcloud.com/2018/04/21/Photo%20Apr%2030,%2014%2047%2024.png!webp_1920w
-  [3]: https://blog-img-1251828412.image.myqcloud.com/2018/04/21/Photo%20Apr%2030,%2014%2047%2036.jpeg
-  [4]: https://blog-img-1251828412.image.myqcloud.com/2018/04/21/Photo%20Apr%2030,%2014%2056%2017.jpeg
+  [3]: https://blog-img-1251828412.image.myqcloud.com/2018/04/21/Photo%20Apr%2030,%2014%2047%2036.jpeg!webp_1920w
+  [4]: https://blog-img-1251828412.image.myqcloud.com/2018/04/21/Photo%20Apr%2030,%2014%2056%2017.jpeg!webp_1920w

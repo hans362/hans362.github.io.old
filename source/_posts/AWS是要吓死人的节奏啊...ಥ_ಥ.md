@@ -21,4 +21,4 @@ thumbnail:
 
 估计AWS这次吓坏了不少人23333
 
-  [1]: https://blog.hans362.cn/usr/uploads/2018/01/2832363996.jpeg
+  [1]: https://blog.hans362.cn/usr/uploads/2018/01/2832363996.jpeg!webp_1920w

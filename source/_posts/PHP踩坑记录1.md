@@ -9,7 +9,7 @@ thumbnail: https://blog-img-1251828412.image.myqcloud.com/2019/05/11/code-944499
 
 至于运行的效率以及代码质量么....不管了....（自信
 
-![](https://blog-img-1251828412.image.myqcloud.com/2019/02/18/ybsbny.jpeg)
+![](https://blog-img-1251828412.image.myqcloud.com/2019/02/18/ybsbny.jpeg!webp_1920w)
 
 那么针对踩过的坑就记录一下吧~（先说明一下 PHP 版本为7.1.26）
 

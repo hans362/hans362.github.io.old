@@ -23,7 +23,7 @@ LightSail是由AWS推出的一款适合个人、团队或小型企业的云计�
 
 LightSail采用的是独立的管理界面，与EC2完全分离，重设计的界面与传统的AWS Console相比更加简洁，没有EC2那么眼花缭乱的按钮和操作，侧边的Help按钮更加方便地引导用户进行操作。这一点我给满分。
 
-![B8249935-F035-4D9E-97E3-6AF3E6AAEDCD.jpeg][1]
+![B8249935-F035-4D9E-97E3-6AF3E6AAEDCD.jpeg!webp_1920w][1]
 
 ## 价格与计费方式 ##
 
@@ -31,8 +31,8 @@ LightSail采用的是独立的管理界面，与EC2完全分离，重设计的�
 
 LightSail的计费方式其实与EC2并无区别，都是以小时的方式进行计费，较为单一，并没有期待中的按量付费和包年包月的两种不同形式。比较令人失望的是费用，我选择最低配的EC2无论什么系统都是$10每月，而LightSail选择Linux只需$5且流量有1TB，看起来确实性价比有所提升。但是若系统选择Windows，价格就变成了$10，可以看出要付额外的$5版权费，还是让人有些失望的。这一部分只能给三颗星。
 
-![529D3A34-CEE6-4934-A756-DF633226CCE6.jpeg][2]
-![C5A021CE-82A1-4070-910E-89578EDEBE33.jpeg][3]
+![529D3A34-CEE6-4934-A756-DF633226CCE6.jpeg!webp_1920w][2]
+![C5A021CE-82A1-4070-910E-89578EDEBE33.jpeg!webp_1920w][3]
 
 ## 控制面板功能 ##
 
@@ -40,7 +40,7 @@ LightSail的计费方式其实与EC2并无区别，都是以小时的方式进�
 
 LightSail的控制面板功能较为齐全，快照、负载均衡、DNS域、弹性IP、附加存储应有尽有，唯一需要吐槽的是重装系统必须删除实例再重新创建，不能在后台直接重装，这一点很鸡肋，继承了EC2的风格。看来AWS在一些细节方面还是欠缺考虑，这一点只能给四颗星。
 
-![F04209EF-FC3C-465B-B1D0-E76F3BC4C6E0.jpeg][4]
+![F04209EF-FC3C-465B-B1D0-E76F3BC4C6E0.jpeg!webp_1920w][4]
 
 ## 网络与可用区 ##
 
@@ -48,7 +48,7 @@ LightSail的控制面板功能较为齐全，快照、负载均衡、DNS域、�
 
 LightSail可用区还是较多的，但是和EC2相比还是偏少，但已足够满足普通用户的需求。
 
-![F4C2A391-59C2-49F5-8E1A-DD8A53429300.jpeg][5]
+![F4C2A391-59C2-49F5-8E1A-DD8A53429300.jpeg!webp_1920w][5]
 
 本次评测中对于大多数可用区都进行了测试，总体分为亚太地区、北美地区、欧洲地区三大可用区，并选出了每个大区域中速度最快的可用区。（测试地点为上海电信）
 
@@ -89,7 +89,7 @@ LightSail可用区还是较多的，但是和EC2相比还是偏少，但已足�
 
 先上一张在Windows上的配置图：
 
-![B5CA5D0F-1C5C-4D24-B155-0B0F3E0A6A85.jpeg][6]
+![B5CA5D0F-1C5C-4D24-B155-0B0F3E0A6A85.jpeg!webp_1920w][6]
 
 由于没钱选择的是最低配版本，性能上是有所欠缺的，这一项主要还是看钱。
 
@@ -100,9 +100,9 @@ LightSail可用区还是较多的，但是和EC2相比还是偏少，但已足�
 准确来说这次LightSail评测并没有特别让人惊艳，而且由于LightSail是与Vultr、DigitalOcean竞争的产品，我觉得并没有显示出它的优势，甚至在有些方面还比不上，略有些让人失望。希望LightSail能继续改进，让它更加适合普通用户使用，在性价比方面、计费方式、网络可用区等方面可以做得更好一些。
 
 
-  [1]: https://blog.hans362.cn/usr/uploads/2018/01/1277363555.jpeg
-  [2]: https://blog.hans362.cn/usr/uploads/2018/01/3701249805.jpeg
-  [3]: https://blog.hans362.cn/usr/uploads/2018/01/1472935807.jpeg
-  [4]: https://blog.hans362.cn/usr/uploads/2018/01/1993245797.jpeg
-  [5]: https://blog.hans362.cn/usr/uploads/2018/01/1051349962.jpeg
-  [6]: https://blog.hans362.cn/usr/uploads/2018/01/2174853082.jpeg
+  [1]: https://blog.hans362.cn/usr/uploads/2018/01/1277363555.jpeg!webp_1920w
+  [2]: https://blog.hans362.cn/usr/uploads/2018/01/3701249805.jpeg!webp_1920w
+  [3]: https://blog.hans362.cn/usr/uploads/2018/01/1472935807.jpeg!webp_1920w
+  [4]: https://blog.hans362.cn/usr/uploads/2018/01/1993245797.jpeg!webp_1920w
+  [5]: https://blog.hans362.cn/usr/uploads/2018/01/1051349962.jpeg!webp_1920w
+  [6]: https://blog.hans362.cn/usr/uploads/2018/01/2174853082.jpeg!webp_1920w

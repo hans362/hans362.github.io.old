@@ -7,7 +7,7 @@ thumbnail:
 ---
 DigitalOcean应该算是美国一家比较老牌的云主机商了，经常与Vultr、Linode等廉价的主机商一起出现。作为穷得要死的牛奶，我还是想方设法搞到了一台DO的5刀云主机。（前段时间发现GitHub学生包里还有50刀的DigitalOcean代金券还没有用，嘿嘿不然哪有闲钱买这个啊喂）
 
-![https://blog-img-1251828412.image.myqcloud.com/2018/03/12/9108C443-14B1-4F9A-ABAE-6D8C68A44C33.jpeg][1]
+![https://blog-img-1251828412.image.myqcloud.com/2018/03/12/9108C443-14B1-4F9A-ABAE-6D8C68A44C33.jpeg!webp_1920w][1]
 
 
 <!--more-->
@@ -21,16 +21,16 @@ DigitalOcean应该算是美国一家比较老牌的云主机商了，经常与Vu
 
 注册过程对于学生党来说有一点点小困难，因为作为学生党没有信用卡啊ಥ_ಥ所以只好忍痛往PayPal里砸了5刀用于账户验证（PayPal某宝上有代充的，就不打广告了w）新用户注册可以享有10刀的免费代金券哦～
 
-![https://blog-img-1251828412.image.myqcloud.com/2018/03/12/F01D9013-6C7D-448C-9B67-CBFF219E84B4.jpeg][2]
+![https://blog-img-1251828412.image.myqcloud.com/2018/03/12/F01D9013-6C7D-448C-9B67-CBFF219E84B4.jpeg!webp_1920w][2]
 
  - 一点小Tips
 在添加完新用户的10刀代金券后，大部分有GitHub学生包的人都会发现没法再添加50刀优惠券！这时提交个工单，用英语告诉客服你的状况，并在工单里附上你的代金券代码，请求帮忙激活。英文不好的可以参考一下我的写法：
 
-![https://blog-img-1251828412.image.myqcloud.com/2018/03/12/93447F47-071C-4F9B-B2F6-958ECB93332F.jpeg][3]
+![https://blog-img-1251828412.image.myqcloud.com/2018/03/12/93447F47-071C-4F9B-B2F6-958ECB93332F.jpeg!webp_1920w][3]
 
 然后你就会惊喜地发现账户里有65刀啦（5刀PayPal+10刀新用户赠送+50刀GitHub学生包）
 a
-![https://blog-img-1251828412.image.myqcloud.com/2018/03/12/2E9042A1-D862-4BDC-A699-D5BF0FF3A979.jpeg][4]
+![https://blog-img-1251828412.image.myqcloud.com/2018/03/12/2E9042A1-D862-4BDC-A699-D5BF0FF3A979.jpeg!webp_1920w][4]
 
 ## 操作面板 ##
 
@@ -38,11 +38,11 @@ a
 
 这是DigitalOcean VPS主机管理界面，创建VPS主机后，稍等几分钟就可以看到VPS列表了，这里有删除、升级配置、备份、报表和Web控制台等。
 
-![https://blog-img-1251828412.image.myqcloud.com/2018/03/12/9D754CBC-AB83-47C2-8285-696E6270DE04.jpeg][5]
+![https://blog-img-1251828412.image.myqcloud.com/2018/03/12/9D754CBC-AB83-47C2-8285-696E6270DE04.jpeg!webp_1920w][5]
 
 这是DigitalOcean VPS主机操作中心，常用的报表、重装、追加硬盘、快照、备份、关机等这些都有。
 
-![https://blog-img-1251828412.image.myqcloud.com/2018/03/12/16E71CEE-C82F-44DA-92A0-F88CF30C8D05.jpeg][6]
+![https://blog-img-1251828412.image.myqcloud.com/2018/03/12/16E71CEE-C82F-44DA-92A0-F88CF30C8D05.jpeg!webp_1920w][6]
 
 总得来说，DigitalOcean的控制面板也比较强大，只不过像快照、备份等功能都是需要收费的，大家在开通时需要特别注意。
 
@@ -50,7 +50,7 @@ a
 
 这是DigitalOcean的价格表，最便宜的是5美元一个月。
 
-![https://blog-img-1251828412.image.myqcloud.com/2018/03/12/79B7122C-B131-4968-8F88-38AC034452AF.jpeg][7]
+![https://blog-img-1251828412.image.myqcloud.com/2018/03/12/79B7122C-B131-4968-8F88-38AC034452AF.jpeg!webp_1920w][7]
 
 即使是最便宜的也配备了1G内存、1CPU、25GSSD和1T流量，感觉还是蛮合算的！
 
@@ -60,9 +60,9 @@ a
 
 结果如下：
 
-![https://blog-img-1251828412.image.myqcloud.com/2018/03/12/1420CBBD-6529-4B54-87A5-6EBF25B9302D.jpeg][8]
+![https://blog-img-1251828412.image.myqcloud.com/2018/03/12/1420CBBD-6529-4B54-87A5-6EBF25B9302D.jpeg!webp_1920w][8]
 
-![https://blog-img-1251828412.image.myqcloud.com/2018/03/12/410DFD62-44D7-4E2C-95A2-76663E8C0638.jpeg][9]
+![https://blog-img-1251828412.image.myqcloud.com/2018/03/12/410DFD62-44D7-4E2C-95A2-76663E8C0638.jpeg!webp_1920w][9]
 
 可以看到UnixBench跑分为700+，还是比较好的。IO也很不错。综合测试下来最令我惊喜的是网络，带宽给的非常足，能达到GB级的水平～
 
@@ -89,13 +89,13 @@ DigitalOcean目前有纽约：NYC1、NYC2、NYC3，旧金山：SFO1，阿姆斯�
 [1]https://wzfou.com/digitalocean/
 
 
-  [1]: https://blog-img-1251828412.image.myqcloud.com/2018/03/12/9108C443-14B1-4F9A-ABAE-6D8C68A44C33.jpeg
-  [2]: https://blog-img-1251828412.image.myqcloud.com/2018/03/12/F01D9013-6C7D-448C-9B67-CBFF219E84B4.jpeg
-  [3]: https://blog-img-1251828412.image.myqcloud.com/2018/03/12/93447F47-071C-4F9B-B2F6-958ECB93332F.jpeg
-  [4]: https://blog-img-1251828412.image.myqcloud.com/2018/03/12/2E9042A1-D862-4BDC-A699-D5BF0FF3A979.jpeg
-  [5]: https://blog-img-1251828412.image.myqcloud.com/2018/03/12/9D754CBC-AB83-47C2-8285-696E6270DE04.jpeg
-  [6]: https://blog-img-1251828412.image.myqcloud.com/2018/03/12/16E71CEE-C82F-44DA-92A0-F88CF30C8D05.jpeg
-  [7]: https://blog-img-1251828412.image.myqcloud.com/2018/03/12/79B7122C-B131-4968-8F88-38AC034452AF.jpeg
-  [8]: https://blog-img-1251828412.image.myqcloud.com/2018/03/12/1420CBBD-6529-4B54-87A5-6EBF25B9302D.jpeg
-  [9]: https://blog-img-1251828412.image.myqcloud.com/2018/03/12/410DFD62-44D7-4E2C-95A2-76663E8C0638.jpeg
+  [1]: https://blog-img-1251828412.image.myqcloud.com/2018/03/12/9108C443-14B1-4F9A-ABAE-6D8C68A44C33.jpeg!webp_1920w
+  [2]: https://blog-img-1251828412.image.myqcloud.com/2018/03/12/F01D9013-6C7D-448C-9B67-CBFF219E84B4.jpeg!webp_1920w
+  [3]: https://blog-img-1251828412.image.myqcloud.com/2018/03/12/93447F47-071C-4F9B-B2F6-958ECB93332F.jpeg!webp_1920w
+  [4]: https://blog-img-1251828412.image.myqcloud.com/2018/03/12/2E9042A1-D862-4BDC-A699-D5BF0FF3A979.jpeg!webp_1920w
+  [5]: https://blog-img-1251828412.image.myqcloud.com/2018/03/12/9D754CBC-AB83-47C2-8285-696E6270DE04.jpeg!webp_1920w
+  [6]: https://blog-img-1251828412.image.myqcloud.com/2018/03/12/16E71CEE-C82F-44DA-92A0-F88CF30C8D05.jpeg!webp_1920w
+  [7]: https://blog-img-1251828412.image.myqcloud.com/2018/03/12/79B7122C-B131-4968-8F88-38AC034452AF.jpeg!webp_1920w
+  [8]: https://blog-img-1251828412.image.myqcloud.com/2018/03/12/1420CBBD-6529-4B54-87A5-6EBF25B9302D.jpeg!webp_1920w
+  [9]: https://blog-img-1251828412.image.myqcloud.com/2018/03/12/410DFD62-44D7-4E2C-95A2-76663E8C0638.jpeg!webp_1920w
   [10]: https://blog-img-1251828412.image.myqcloud.com/2018/03/12/14B56E20-990F-4E0D-B0CB-E042232C35E3.gif
